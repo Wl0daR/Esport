@@ -1,0 +1,6 @@
+@Esport.WebApi_HostAddress = http://localhost:5122
+
+GET {{Esport.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+F:\projects\Esport\Esport.Shared\bin\Debug\net8.0\Esport.Shared.deps.json
+F:\projects\Esport\Esport.Shared\bin\Debug\net8.0\Esport.Shared.dll
+F:\projects\Esport\Esport.Shared\bin\Debug\net8.0\Esport.Shared.pdb
+F:\projects\Esport\Esport.Shared\obj\Debug\net8.0\Esport.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\projects\Esport\Esport.Shared\obj\Debug\net8.0\Esport.Shared.AssemblyInfoInputs.cache
+F:\projects\Esport\Esport.Shared\obj\Debug\net8.0\Esport.Shared.AssemblyInfo.cs
+F:\projects\Esport\Esport.Shared\obj\Debug\net8.0\Esport.Shared.csproj.CoreCompileInputs.cache
+F:\projects\Esport\Esport.Shared\obj\Debug\net8.0\Esport.Shared.dll
+F:\projects\Esport\Esport.Shared\obj\Debug\net8.0\refint\Esport.Shared.dll
+F:\projects\Esport\Esport.Shared\obj\Debug\net8.0\Esport.Shared.pdb
+F:\projects\Esport\Esport.Shared\obj\Debug\net8.0\ref\Esport.Shared.dll

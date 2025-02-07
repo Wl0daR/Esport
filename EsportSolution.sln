@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esport.Shared", "Esport.Shared\Esport.Shared.csproj", "{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esport.WebApi", "Esport.WebApi\Esport.WebApi.csproj", "{B238E761-4386-4F04-94BC-72995BEBDE3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esport.Client", "Esport.Client\Esport.Client.csproj", "{479102B1-7552-473A-9A33-C33F3E1DBC1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B238E761-4386-4F04-94BC-72995BEBDE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B238E761-4386-4F04-94BC-72995BEBDE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B238E761-4386-4F04-94BC-72995BEBDE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B238E761-4386-4F04-94BC-72995BEBDE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479102B1-7552-473A-9A33-C33F3E1DBC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479102B1-7552-473A-9A33-C33F3E1DBC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479102B1-7552-473A-9A33-C33F3E1DBC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479102B1-7552-473A-9A33-C33F3E1DBC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

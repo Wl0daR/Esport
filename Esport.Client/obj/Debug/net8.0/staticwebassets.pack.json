@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Esport.Client.styles.css",
+      "PackagePath": "staticwebassets\\Esport.Client.styles.css"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\teamlogo\\1.png",
+      "PackagePath": "staticwebassets\\teamlogo\\1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Esport.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Esport.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Esport.Client.props",
+      "PackagePath": "build\\Esport.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Esport.Client.props",
+      "PackagePath": "buildMultiTargeting\\Esport.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Esport.Client.props",
+      "PackagePath": "buildTransitive\\Esport.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
