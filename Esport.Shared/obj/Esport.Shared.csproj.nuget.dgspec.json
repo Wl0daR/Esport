@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\projects\\Esport\\Esport.Shared\\Esport.Shared.csproj": {}
+    "C:\\ProjectsC#\\Esport\\Esport.Shared\\Esport.Shared.csproj": {}
   },
   "projects": {
-    "F:\\projects\\Esport\\Esport.Shared\\Esport.Shared.csproj": {
+    "C:\\ProjectsC#\\Esport\\Esport.Shared\\Esport.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\projects\\Esport\\Esport.Shared\\Esport.Shared.csproj",
+        "projectUniqueName": "C:\\ProjectsC#\\Esport\\Esport.Shared\\Esport.Shared.csproj",
         "projectName": "Esport.Shared",
-        "projectPath": "F:\\projects\\Esport\\Esport.Shared\\Esport.Shared.csproj",
-        "packagesPath": "C:\\Users\\WlodaR\\.nuget\\packages\\",
-        "outputPath": "F:\\projects\\Esport\\Esport.Shared\\obj\\",
+        "projectPath": "C:\\ProjectsC#\\Esport\\Esport.Shared\\Esport.Shared.csproj",
+        "packagesPath": "C:\\Users\\adrian.wlodarczyk\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectsC#\\Esport\\Esport.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\VisualStudioShared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\WlodaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adrian.wlodarczyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

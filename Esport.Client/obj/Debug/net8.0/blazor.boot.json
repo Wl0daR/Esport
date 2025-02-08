@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "Esport.Client",
   "resources": {
-    "hash": "sha256-CW+c2XgrMiHATyP7tbUZbicQ0z89M2EZw4EscYbKvAc=",
+    "hash": "sha256-kxG/wtDiwCQOj5GU9EoW5IEYuutfpC3zPcG/4LJW2MM=",
     "jsModuleNative": {
-      "dotnet.native.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
+      "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.js": "sha256-aTAnT1r/EAWev8oI/mTFI9nH3RsfA5M822bNiGhok6U="
+      "dotnet.runtime.js": "sha256-nam8JTYKjhMKOTg6+FlihYP6JpWPGe3jjM9fiUFWzhY="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-4X9eav+Ak45oe3jDiM7H2gSxg1ZRzmhn9QfZURenUbE="
+      "dotnet.native.wasm": "sha256-1NJsNYy4gznvjVwzcG5w3Cl50enK1KB/7cKBMY+6jz4="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -209,12 +209,12 @@
       "mscorlib.wasm": "sha256-QoC5hTKpDNO6efLnEvYwV9OJBXvYRq8/1yGhNZKiNCw=",
       "netstandard.wasm": "sha256-JT2F4bYWJpaSGq+iD0ITLpWxsDhMUjhqje9RpBtTg7w=",
       "System.Private.CoreLib.wasm": "sha256-fvIPBcvgvsRuWrKi2LGQsLYvcKUSnyIuBUsE3LJu/0Y=",
-      "Esport.Shared.wasm": "sha256-YL3k5lwVEXfJ1TDmrH8nqSnAE/rrtUbO43+nMHQm/iY=",
-      "Esport.Client.wasm": "sha256-WxjCaSmpg/G4nxvWSiOvJ5MpxZMIeA6ScYEeSp3+p5o="
+      "Esport.Shared.wasm": "sha256-6pnMhzocwuflquY0M2VI6Rnt2/uPWvdt+KZ92v3Ok7k=",
+      "Esport.Client.wasm": "sha256-ul1uGceoR0s655EcHarfvGoDs6rQxmS4zvtFPpAL/sw="
     },
     "pdb": {
-      "Esport.Shared.pdb": "sha256-DkEtpPjESsXnS4lKXrR5lQbOY6qrFoKTvE06Cg+7oqE=",
-      "Esport.Client.pdb": "sha256-UaQMcTl4saNcUNPWM2YxyKW0nW++lBhzjBPCfy2AsoE="
+      "Esport.Shared.pdb": "sha256-JGsy9m7OTFSGUIA9u7UBmPFkzvC3x6aX32xMZub/d0M=",
+      "Esport.Client.pdb": "sha256-BCtHmskfbHgDcgsmUUBDQ98gL0Ro1B6rrmcuEwTwdRk="
     }
   },
   "cacheBootResources": true,

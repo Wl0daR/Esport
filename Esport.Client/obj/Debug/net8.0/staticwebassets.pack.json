@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Esport.Client.styles.css",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Esport.Client.styles.css",
       "PackagePath": "staticwebassets\\Esport.Client.styles.css"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\favicon.png",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\icon-192.png",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\index.html",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
-      "Id": "F:\\projects\\Esport\\Esport.Client\\wwwroot\\teamlogo\\1.png",
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\1.png",
       "PackagePath": "staticwebassets\\teamlogo\\1.png"
     },
     {

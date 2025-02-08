@@ -421,13 +421,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.1": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -881,13 +881,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.1": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1733,10 +1733,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.12": {
-      "sha512": "FV4HnQ3JI15PHnJ5PGTbz+rYvrih42oLi/7UMIshNwCwUZhTq13UzrggtXk4ygrcMcN+4jsS6hhshx2p/Zd0ig==",
+    "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "sha512": "zk5lnZrYJgtuJG8L4v17Ej8rZ3PUcR2iweNV08BaO5LbYHIi2wNaVNcJoLxvqgQdnjLlKnCCfVGLDr6QHeAarQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.12",
+      "path": "microsoft.net.illink.tasks/8.0.11",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1750,7 +1750,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1784,10 +1784,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.1": {
-      "sha512": "/+0fpalaBrtXNnoso2oIMi3W30+bDWe8lrXkRj6qKMKsTpDfJboxuVn+E9XDpuk2zTBqjd6ZDStD6F9KYMj7cQ==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
+      "sha512": "Ch6dilt/TAo3XryG/9LF8Zy4rAT+2HYnks8thWAeNzPNOJs4aSyC6E5yxuBiN49d2eES78h1mSR/KNyOfbptXQ==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/9.0.1",
+      "path": "microsoft.net.sdk.webassembly.pack/9.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1818,7 +1818,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-        "microsoft.net.sdk.webassembly.pack.9.0.1.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.9.0.0.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
@@ -1866,28 +1866,28 @@
       "Esport.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.12",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.12",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.1"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.11",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WlodaR\\.nuget\\packages\\": {},
-    "E:\\VisualStudioShared\\NuGetPackages": {}
+    "C:\\Users\\adrian.wlodarczyk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\projects\\Esport\\Esport.Client\\Esport.Client.csproj",
+      "projectUniqueName": "C:\\ProjectsC#\\Esport\\Esport.Client\\Esport.Client.csproj",
       "projectName": "Esport.Client",
-      "projectPath": "F:\\projects\\Esport\\Esport.Client\\Esport.Client.csproj",
-      "packagesPath": "C:\\Users\\WlodaR\\.nuget\\packages\\",
-      "outputPath": "F:\\projects\\Esport\\Esport.Client\\obj\\",
+      "projectPath": "C:\\ProjectsC#\\Esport\\Esport.Client\\Esport.Client.csproj",
+      "packagesPath": "C:\\Users\\adrian.wlodarczyk\\.nuget\\packages\\",
+      "outputPath": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\VisualStudioShared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\WlodaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adrian.wlodarczyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1903,8 +1903,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\projects\\Esport\\Esport.Shared\\Esport.Shared.csproj": {
-              "projectPath": "F:\\projects\\Esport\\Esport.Shared\\Esport.Shared.csproj"
+            "C:\\ProjectsC#\\Esport\\Esport.Shared\\Esport.Shared.csproj": {
+              "projectPath": "C:\\ProjectsC#\\Esport\\Esport.Shared\\Esport.Shared.csproj"
             }
           }
         }
@@ -1937,13 +1937,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.12, )",
+            "version": "[8.0.11, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.1, )",
+            "version": "[9.0.0, )",
             "autoReferenced": true
           }
         },
@@ -1958,12 +1958,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

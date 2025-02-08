@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Esport.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2a38c70720c487f4dcb42f5b2f7f3d9e6ca5cbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Esport.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Esport.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

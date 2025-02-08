@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\projects\\Esport\\",
+  "WorkspaceRootPath": "C:\\ProjectsC#\\Esport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|c:\\projectsc#\\esport\\esport.shared\\helpers\\flaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\helpers\\flaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|c:\\projectsc#\\esport\\esport.shared\\dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\helpers\\flaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\helpers\\flaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|c:\\projectsc#\\esport\\esport.client\\pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FlagHelper.cs",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Shared\\Helpers\\FlagHelper.cs",
+              "DocumentMoniker": "C:\\ProjectsC#\\Esport\\Esport.Shared\\Helpers\\FlagHelper.cs",
               "RelativeDocumentMoniker": "Esport.Shared\\Helpers\\FlagHelper.cs",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\Helpers\\FlagHelper.cs",
+              "ToolTip": "C:\\ProjectsC#\\Esport\\Esport.Shared\\Helpers\\FlagHelper.cs",
               "RelativeToolTip": "Esport.Shared\\Helpers\\FlagHelper.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAAmwAQBAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQBAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T05:34:44.603Z",
               "EditorCaption": ""
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PlayerDto.cs",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Shared\\DTO\\PlayerDto.cs",
+              "DocumentMoniker": "C:\\ProjectsC#\\Esport\\Esport.Shared\\DTO\\PlayerDto.cs",
               "RelativeDocumentMoniker": "Esport.Shared\\DTO\\PlayerDto.cs",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\DTO\\PlayerDto.cs",
+              "ToolTip": "C:\\ProjectsC#\\Esport\\Esport.Shared\\DTO\\PlayerDto.cs",
               "RelativeToolTip": "Esport.Shared\\DTO\\PlayerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,11 +52,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Teams.razor",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams.razor",
+              "DocumentMoniker": "C:\\ProjectsC#\\Esport\\Esport.Client\\Pages\\Teams.razor",
               "RelativeDocumentMoniker": "Esport.Client\\Pages\\Teams.razor",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams.razor",
+              "ToolTip": "C:\\ProjectsC#\\Esport\\Esport.Client\\Pages\\Teams.razor",
               "RelativeToolTip": "Esport.Client\\Pages\\Teams.razor",
               "ViewState": "AgIAAGYAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

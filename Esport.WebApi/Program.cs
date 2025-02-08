@@ -28,7 +28,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowClientApp", policy =>
     {
         // Upewnij się, że wpisujesz właściwy adres aplikacji klienta
-        policy.WithOrigins("https://localhost:7068")
+        policy.AllowAnyOrigin()
               .AllowAnyHeader()
               .AllowAnyMethod();
     });

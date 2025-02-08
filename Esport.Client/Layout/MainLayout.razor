@@ -1,16 +1,25 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
+
+<div class="page @(isDarkTheme ? "dark-theme" : "light-theme")">
+    <!-- Przełącznik motywu -->
+    <div class="checkbox-wrapper-3 theme-switch-container">
+        <!-- Używamy @bind, aby checkbox był powiązany z isDarkTheme -->
+        <input type="checkbox" id="cbx-3" @bind="isDarkTheme" class="theme-switch__input" />
+        <label for="cbx-3" class="toggle"><span></span></label>
+    </div>
+
+    <!-- Sidebar -->
     <div class="sidebar">
         <NavMenu />
     </div>
 
+    <!-- Treść strony -->
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
+        @Body
     </main>
 </div>
+
+@code {
+    // Domyślnie motyw ciemny
+    private bool isDarkTheme = false;
+}

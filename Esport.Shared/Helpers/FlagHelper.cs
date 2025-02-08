@@ -266,7 +266,7 @@ namespace Esport.Shared.Helpers
             if (CountryNameToIsoCode.TryGetValue(countryName, out var isoCode))
             {
                 // Przykładowy format URL: https://flagcdn.com/64x48/pl.png
-                return $"https://flagcdn.com/64x48/{isoCode.ToLower()}.png";
+                return $"https://flagcdn.com/h20/{isoCode.ToLower()}.png";
             }
 
             // Jeśli nie znaleziono mapowania, możesz zwrócić pusty string lub domyślny URL do flagi "nieznanego kraju"

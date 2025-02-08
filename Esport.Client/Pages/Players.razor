@@ -1,5 +1,6 @@
 ﻿@page "/players"
 @inject HttpClient Http
+@using Esport.Shared.DTO
 
 <h3>Lista graczy</h3>
 
@@ -12,7 +13,7 @@ else
     <ul>
         @foreach (var player in players)
         {
-            <li>@player.nickname (Drużyna: @player.team.name)</li>
+            <li>@player.FirstName (Drużyna: @player.)</li>
         }
     </ul>
 }
@@ -20,10 +21,10 @@ else
 @code {
     // Możesz utworzyć lub wykorzystać klasy DTO z projektu Shared.
     // Na potrzeby przykładu użyjemy dynamicznego typu lub stwórz model odpowiadający strukturze API.
-    List<dynamic>? players;
+    List<PlayerDto>? players;
 
     protected override async Task OnInitializedAsync()
     {
-        players = await Http.GetFromJsonAsync<List<dynamic>>("api/players");
+        players = await Http.GetFromJsonAsync<List<PlayerDto>>("api/players");
     }
 }
