@@ -1,30 +1,120 @@
 ﻿@page "/players"
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 @using Esport.Shared.DTO
+@using Esport.Shared.Helpers
 
 <h3>Lista graczy</h3>
 
 @if (players == null)
 {
-    <p>Ładowanie...</p>
+    <p>Ładowanie graczy...</p>
+}
+else if (!players.Any())
+{
+    <p>Brak graczy do wyświetlenia.</p>
 }
 else
 {
-    <ul>
+    <div class="card-container">
         @foreach (var player in players)
         {
-            <li>@player.FirstName (Drużyna: @player.)</li>
+            <div class="player-card" @onclick="() => GoToPlayerProfile(player.Id)">
+                <div class="player-header">
+                    <h4>@player.FirstName "@player.Nickname" @player.LastName (<span class="team-name">@player.team.Name</span>)</h4>
+                </div>
+                <img class="player-portrait" src="@($"/playerportraits/{player.Id}.png")" alt="@player.Nickname" onerror="this.onerror=null;this.src='/noimage.png';" />
+            </div>
         }
-    </ul>
+    </div>
 }
 
 @code {
-    // Możesz utworzyć lub wykorzystać klasy DTO z projektu Shared.
-    // Na potrzeby przykładu użyjemy dynamicznego typu lub stwórz model odpowiadający strukturze API.
     List<PlayerDto>? players;
 
     protected override async Task OnInitializedAsync()
     {
         players = await Http.GetFromJsonAsync<List<PlayerDto>>("api/players");
     }
+
+    private void GoToPlayerProfile(int id)
+    {
+        NavigationManager.NavigateTo($"/playerprofile/{id}");
+    }
 }
+<style>
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    .player-card {
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+        background-color: #fff;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-card:hover {
+        transform: scale(1.02);
+    }
+
+    .player-header {
+        padding: 0.5rem;
+        text-align: center;
+        background-color: #f0f0f0;
+    }
+
+    .player-header h4 {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .player-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px; /* Stała wysokość dla portretu */
+        overflow: hidden;
+        position: relative;
+    }
+
+    .player-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .player-team {
+        padding: 0.5rem;
+        text-align: center;
+        background-color: #f7f7f7;
+        font-size: 0.9rem;
+    }
+
+    /* Opcjonalnie: Dodaj dodatkowe efekty dla linku, np. podświetlenie przy hover */
+    .player-link {
+        color: inherit !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        display: inline-block;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .player-link:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+</style>

@@ -33,12 +33,44 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\noimage.png",
+      "PackagePath": "staticwebassets\\noimage.png"
+    },
+    {
       "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
       "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\1.png",
       "PackagePath": "staticwebassets\\teamlogo\\1.png"
+    },
+    {
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\2.png",
+      "PackagePath": "staticwebassets\\teamlogo\\2.png"
+    },
+    {
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "PackagePath": "staticwebassets\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf"
+    },
+    {
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\3.png",
+      "PackagePath": "staticwebassets\\teamlogo\\3.png"
+    },
+    {
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\4.png",
+      "PackagePath": "staticwebassets\\teamlogo\\4.png"
+    },
+    {
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\5.png",
+      "PackagePath": "staticwebassets\\teamlogo\\5.png"
+    },
+    {
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\6.png",
+      "PackagePath": "staticwebassets\\teamlogo\\6.png"
+    },
+    {
+      "Id": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\7.png",
+      "PackagePath": "staticwebassets\\teamlogo\\7.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Esport.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Esport.Client",
   "resources": {
-    "hash": "sha256-kxG/wtDiwCQOj5GU9EoW5IEYuutfpC3zPcG/4LJW2MM=",
+    "hash": "sha256-H0jXGToNuZOuHP6Fb5PD5TIjMnlL3/dz6F+F1Oo+HhA=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -209,12 +209,12 @@
       "mscorlib.wasm": "sha256-QoC5hTKpDNO6efLnEvYwV9OJBXvYRq8/1yGhNZKiNCw=",
       "netstandard.wasm": "sha256-JT2F4bYWJpaSGq+iD0ITLpWxsDhMUjhqje9RpBtTg7w=",
       "System.Private.CoreLib.wasm": "sha256-fvIPBcvgvsRuWrKi2LGQsLYvcKUSnyIuBUsE3LJu/0Y=",
-      "Esport.Shared.wasm": "sha256-6pnMhzocwuflquY0M2VI6Rnt2/uPWvdt+KZ92v3Ok7k=",
-      "Esport.Client.wasm": "sha256-ul1uGceoR0s655EcHarfvGoDs6rQxmS4zvtFPpAL/sw="
+      "Esport.Shared.wasm": "sha256-iijD5BNK43YPCSCwurkB2DdUUUhQ75Q8fbA7oPJ5O9E=",
+      "Esport.Client.wasm": "sha256-eTNVgPdpfC3D0XgCkWNGo9Sf3QxgbnWXHJ/U8mjbqLo="
     },
     "pdb": {
-      "Esport.Shared.pdb": "sha256-JGsy9m7OTFSGUIA9u7UBmPFkzvC3x6aX32xMZub/d0M=",
-      "Esport.Client.pdb": "sha256-BCtHmskfbHgDcgsmUUBDQ98gL0Ro1B6rrmcuEwTwdRk="
+      "Esport.Shared.pdb": "sha256-aupEUJets5lp3cxb/VPgR4b2TIaVMfK/EyUBIZbLSXY=",
+      "Esport.Client.pdb": "sha256-mVDlXel5FPvFXuVSQb2BKx2vRm6bu9mzNi5yKl9pymk="
     }
   },
   "cacheBootResources": true,

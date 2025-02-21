@@ -2091,8 +2091,8 @@ C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\Esport.Client.dll
 C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\refint\Esport.Client.dll
 C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\Esport.Client.pdb
 C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\ref\Esport.Client.dll
-C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\0pagpi68tj-eeh4prrmgw.gz
-C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\mkzitv44bp-ketggf3by3.gz
-C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\ml38pf23c1-yqjjbikvc9.gz
-C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\n6qfi3rhp6-0xm8ti0dpi.gz
-C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\49622b7smd-4zti7v3thz.gz
+C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\0pagpi68tj-m93strqsay.gz
+C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\mkzitv44bp-yisk1rf1p5.gz
+C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\ml38pf23c1-743rg15m2b.gz
+C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\n6qfi3rhp6-v28mdgn4gk.gz
+C:\ProjectsC#\Esport\Esport.Client\obj\Debug\net8.0\compressed\49622b7smd-cdvlveea2l.gz

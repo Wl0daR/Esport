@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Chrome for Blazor",
+        "type": "chrome",
+        "request": "launch",
+        "preLaunchTask": "run",
+        "url": "http://localhost:5025",
+        "webRoot": "${workspaceFolder}/wwwroot",
+        "sourceMaps": true
+      }
+    ]
+  }
+  

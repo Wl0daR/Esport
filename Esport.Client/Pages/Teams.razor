@@ -1,6 +1,7 @@
 ﻿@page "/teams"
 @using Esport.Shared.DTO
 @using Esport.Shared.Helpers
+@inject NavigationManager NavigationManager
 @inject HttpClient Http
 
 <h3>Drużyny</h3>
@@ -16,10 +17,12 @@
         {
             <div class="team-card"
                  @onmouseover="() => ShowPlayers(team.Id)"
-                 @onmouseout="HidePlayers">
-                <!-- Nagłówek z nazwą drużyny -->
+                 @onmouseleave="HidePlayers">
+                <!-- Nagłówek z nazwą drużyny jako link -->
                 <div class="team-header">
-                    <h4>@team.Name</h4>
+                    <span class="team-name-link" @onclick="() => GoToTeamProfile(team.Id)">
+                        <h4>@team.Name</h4>
+                    </span>
                 </div>
                 <!-- Kontener ze zdjęciem drużyny -->
                 <div class="team-image-container">
@@ -33,8 +36,10 @@
                                     @foreach (var player in team.Players)
                                     {
                                         <li>
-                                            <img class="flag" src="@FlagHelper.GetFlagUrl(player.Country)" alt="@player.Country" />
-                                            @player.FirstName "@player.Nickname" @player.LastName
+                                            <span class="player-link" @onclick="() => GoToPlayerProfile(player.Id)">
+                                                <img class="flag" src="@FlagHelper.GetFlagUrl(player.Country)" alt="@player.Country" />
+                                                @player.FirstName "@player.Nickname" @player.LastName
+                                            </span>
                                         </li>
                                     }
                                 </ul>
@@ -69,7 +74,18 @@
     {
         hoveredTeamId = null;
     }
+
+    private void GoToPlayerProfile(int id)
+    {
+        NavigationManager.NavigateTo($"/playerprofile/{id}");
+    }
+
+    private void GoToTeamProfile(int id)
+    {
+        NavigationManager.NavigateTo($"/teamprofile/{id}");
+    }
 }
+
 
 <style>
     .card-container {
@@ -87,7 +103,7 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         transition: transform 0.2s;
         background-color: #fff;
-        position: relative; /* Upewnij się, że overlay będzie prawidłowo pozycjonowany */
+        position: relative;
     }
 
     .team-card:hover {
@@ -106,22 +122,30 @@
         font-weight: bold;
     }
 
-        .team-image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: auto;  
-            overflow: hidden; 
-            position: relative;
-}
+    /* Styl dla nazwy drużyny jako link */
+    .team-name-link {
+        color: inherit;           /* Dziedziczy kolor z rodzica */
+        text-decoration: none;    /* Bez podkreślenia */
+        cursor: pointer;          /* Kursor wskazuje, że element jest klikalny */
+        transition: color 0.3s;
+    }
 
+    .team-name-link:hover {
+        color: var(--primary-color);
+    }
 
+    .team-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;  /* Ustalona wysokość kontenera dla lepszego efektu */
+        overflow: hidden;
+        position: relative;
+    }
 
     .team-image {
         width: 50%;
-        height: 50%;
-        height: auto;
         transition: filter 0.3s ease-in-out;
     }
 
@@ -142,7 +166,6 @@
         justify-content: center;
         align-items: center;
         padding: 0.5rem;
-        pointer-events: none;
     }
 
     .players-overlay ul {
@@ -163,5 +186,15 @@
         height: auto;
         margin-left: 0.5rem;
         vertical-align: middle;
+    }
+
+    .player-link {
+        color: inherit;           /* Dziedziczy kolor z rodzica */
+        text-decoration: none;    /* Bez podkreślenia */
+        cursor: pointer;          /* Kursor wskazuje, że element jest klikalny */
+        transition: color 0.3s;
+
+    .player-link:hover {
+        color: var(--primary-color); /* Możesz ustawić zmienną lub konkretny kolor */
     }
 </style>

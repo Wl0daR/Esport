@@ -1,0 +1,118 @@
+@page "/teamprofile/{TeamId:int}"
+@using Esport.Shared.DTO
+@using Esport.Shared.Helpers
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+
+@if (team == null)
+{
+    <p>Ładowanie szczegółów drużyny...</p>
+}
+else
+{
+    <div class="team-profile">
+        <h2>@team.Name</h2>
+        <p><strong>ID:</strong> @team.Id</p>
+        <p><strong>Data założenia:</strong> @team.FoundedDate.ToShortDateString()</p>
+        <p><strong>Kraj założenia:</strong> @team.CountryOfOrigin</p>
+        <div class="team-logo">
+            <img src="@($"/teamlogo/{team.Id}.png")" alt="@team.Name" onerror="this.onerror=null;this.src='/noimage.png';"/>
+        </div>
+
+        <h3>Gracze</h3>
+        @if (team.Players == null || !team.Players.Any())
+        {
+            <p>Brak graczy w drużynie.</p>
+        }
+        else
+        {
+            <ul class="players-list">
+                @foreach (var player in team.Players)
+                {
+                    <div>
+                        <span class="player-link" @onclick="() => GoToPlayerProfile(player.Id)">
+                            <img class="flag" src="@FlagHelper.GetFlagUrl(player.Country)" alt="@player.Country" />
+                            @player.FirstName "@player.Nickname" @player.LastName
+                        </span>
+                    </div>
+                }
+            </ul>
+        }
+    </div>
+}
+
+@code {
+    [Parameter] public int TeamId { get; set; }
+    TeamDto? team;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Pobieramy dane drużyny z API, np. /api/teams/{id} (upewnij się, że endpoint zwraca listę graczy)
+        team = await Http.GetFromJsonAsync<TeamDto>($"api/teams/{TeamId}");
+    }
+
+    private void GoToPlayerProfile(int id)
+    {
+        NavigationManager.NavigateTo($"/playerprofile/{id}");
+    }
+}
+<style>
+    .team-profile {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .team-profile h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .team-profile p {
+        margin: 0.5rem 0;
+    }
+
+    .team-logo {
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .team-logo img {
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .players-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .players-list li {
+        margin-bottom: 0.5rem;
+    }
+
+    .player-link {
+        color: inherit !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        display: inline-block;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .player-link:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .flag {
+        width: 16px; /* mniejsze niż w poprzednim przykładzie */
+        height: auto;
+        margin-right: 0.3rem;
+        vertical-align: middle;
+    }
+</style>

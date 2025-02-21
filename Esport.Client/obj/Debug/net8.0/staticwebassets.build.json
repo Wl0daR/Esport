@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vi0bIDyaMyQe0/gMipAk1QXu+bJqma8UyDKZcfFYluI=",
+  "Hash": "XWOhYHD1gWKgexBM/oD57Xz5ngf1dCzh1DRXb9t0fnw=",
   "Source": "Esport.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "4zti7v3thz",
-      "Integrity": "wORdhaZtkaP0wzwSSsVESfGIGtLBqnnETU8n/+Oj/FE=",
+      "Fingerprint": "cdvlveea2l",
+      "Integrity": "EGm2wbRb2X9upKcvl91jHXe32EGfR+6P3zXKOzFxdbo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "0xm8ti0dpi",
-      "Integrity": "BCtHmskfbHgDcgsmUUBDQ98gL0Ro1B6rrmcuEwTwdRk=",
+      "Fingerprint": "v28mdgn4gk",
+      "Integrity": "mVDlXel5FPvFXuVSQb2BKx2vRm6bu9mzNi5yKl9pymk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\Esport.Client.pdb"
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "yqjjbikvc9",
-      "Integrity": "ul1uGceoR0s655EcHarfvGoDs6rQxmS4zvtFPpAL/sw=",
+      "Fingerprint": "743rg15m2b",
+      "Integrity": "eTNVgPdpfC3D0XgCkWNGo9Sf3QxgbnWXHJ/U8mjbqLo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\webcil\\Esport.Client.wasm"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ketggf3by3",
-      "Integrity": "JGsy9m7OTFSGUIA9u7UBmPFkzvC3x6aX32xMZub/d0M=",
+      "Fingerprint": "yisk1rf1p5",
+      "Integrity": "aupEUJets5lp3cxb/VPgR4b2TIaVMfK/EyUBIZbLSXY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Shared\\bin\\Debug\\net8.0\\Esport.Shared.pdb"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "eeh4prrmgw",
-      "Integrity": "6pnMhzocwuflquY0M2VI6Rnt2/uPWvdt+KZ92v3Ok7k=",
+      "Fingerprint": "m93strqsay",
+      "Integrity": "iijD5BNK43YPCSCwurkB2DdUUUhQ75Q8fbA7oPJ5O9E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\webcil\\Esport.Shared.wasm"
@@ -4490,7 +4490,7 @@
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.wasm"
     },
     {
-      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\0pagpi68tj-eeh4prrmgw.gz",
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\0pagpi68tj-m93strqsay.gz",
       "SourceId": "Esport.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -4504,8 +4504,8 @@
       "RelatedAsset": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Esport.Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cw68l3m9sc",
-      "Integrity": "FGoIl71QbuubuMXKtNACG7evYhpjyNWQGAAnrySAT80=",
+      "Fingerprint": "hp7za815xd",
+      "Integrity": "OzSGs341YbfTrKM4T++t8m+Gs4fatSeABA8Y2ovQweg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Esport.Shared.wasm"
@@ -4868,7 +4868,7 @@
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.wasm"
     },
     {
-      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\49622b7smd-4zti7v3thz.gz",
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\49622b7smd-cdvlveea2l.gz",
       "SourceId": "Esport.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -4882,8 +4882,8 @@
       "RelatedAsset": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jkt4w5husw",
-      "Integrity": "Ta2ryfggTW+8NTKXepDsg3UcD5Njm6ii44a3wVUDWdU=",
+      "Fingerprint": "8m8xlqlvzo",
+      "Integrity": "IGmgUnvn0+/oqZmLeyuxG9l3phjhRr+dfNaplvkI6qY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7052,7 +7052,7 @@
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.wasm"
     },
     {
-      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\mkzitv44bp-ketggf3by3.gz",
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\mkzitv44bp-yisk1rf1p5.gz",
       "SourceId": "Esport.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -7066,14 +7066,14 @@
       "RelatedAsset": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Esport.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "oc9rfnenjl",
-      "Integrity": "GDOq3Ved3FJW1Gmm/7fyXc2EaBMKgKlNjaobHm3RhyA=",
+      "Fingerprint": "u3ilvrw0p5",
+      "Integrity": "FuaHFn/jhBbXYUB8yhdd4MQbr2oLWo0gLi/m4wVmkWE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Esport.Shared.pdb"
     },
     {
-      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\ml38pf23c1-yqjjbikvc9.gz",
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\ml38pf23c1-743rg15m2b.gz",
       "SourceId": "Esport.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -7087,8 +7087,8 @@
       "RelatedAsset": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Esport.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hra9frtdzg",
-      "Integrity": "Q5boQ3sS4ySl5PNzv/n53QsNGz5jvKvjDJ6aWh3gRxc=",
+      "Fingerprint": "nt5babkekb",
+      "Integrity": "OwiSfEra6HMcQ9BdqlFkHbe8RJFhlYDqerpes7G12Ek=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Esport.Client.wasm"
@@ -7157,7 +7157,7 @@
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.DriveInfo.wasm"
     },
     {
-      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\n6qfi3rhp6-0xm8ti0dpi.gz",
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\n6qfi3rhp6-v28mdgn4gk.gz",
       "SourceId": "Esport.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -7171,8 +7171,8 @@
       "RelatedAsset": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Esport.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "l0xjfqzh3z",
-      "Integrity": "G0vcBxZo2I2GK6OIKDBDrzZXg1WFjnox1qqS5JyjzYc=",
+      "Fingerprint": "dbdcpinat0",
+      "Integrity": "af+ew0ysiQoGPCNQ+0dc/OTVWAacziFuyGzM4xiHn3Y=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\ProjectsC#\\Esport\\Esport.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Esport.Client.pdb"
@@ -8879,6 +8879,27 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\noimage.png",
+      "SourceId": "Esport.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "noimage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5b957oojt9",
+      "Integrity": "nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\noimage.png"
+    },
+    {
       "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\sample-data\\weather.json",
       "SourceId": "Esport.Client",
       "SourceType": "Discovered",
@@ -8919,6 +8940,153 @@
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\teamlogo\\1.png"
+    },
+    {
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\2.png",
+      "SourceId": "Esport.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "teamlogo/2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lfeao7l6js",
+      "Integrity": "kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\2.png"
+    },
+    {
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "SourceId": "Esport.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "teamlogo/24272001-a0e7-49b7-adca-ae078300ec49#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n6mic0fqwq",
+      "Integrity": "zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf"
+    },
+    {
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\3.png",
+      "SourceId": "Esport.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "teamlogo/3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g3srci1rm1",
+      "Integrity": "BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\3.png"
+    },
+    {
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\4.png",
+      "SourceId": "Esport.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "teamlogo/4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ah3i820xme",
+      "Integrity": "HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\4.png"
+    },
+    {
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\5.png",
+      "SourceId": "Esport.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "teamlogo/5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hx6xhxconj",
+      "Integrity": "VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\5.png"
+    },
+    {
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\6.png",
+      "SourceId": "Esport.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "teamlogo/6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9114sb9b70",
+      "Integrity": "PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\6.png"
+    },
+    {
+      "Identity": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\7.png",
+      "SourceId": "Esport.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "teamlogo/7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qo52dbv20i",
+      "Integrity": "ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\7.png"
     }
   ],
   "Endpoints": [
@@ -8941,11 +9109,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wORdhaZtkaP0wzwSSsVESfGIGtLBqnnETU8n/+Oj/FE=\""
+          "Value": "\"EGm2wbRb2X9upKcvl91jHXe32EGfR+6P3zXKOzFxdbo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:45:25 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8955,18 +9123,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wORdhaZtkaP0wzwSSsVESfGIGtLBqnnETU8n/+Oj/FE="
+          "Value": "sha256-EGm2wbRb2X9upKcvl91jHXe32EGfR+6P3zXKOzFxdbo="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\49622b7smd-4zti7v3thz.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\49622b7smd-cdvlveea2l.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000113960114"
+          "Quality": "0.000113973102"
         }
       ],
       "ResponseHeaders": [
@@ -8976,15 +9144,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8774"
+          "Value": "8773"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ta2ryfggTW+8NTKXepDsg3UcD5Njm6ii44a3wVUDWdU=\""
+          "Value": "\"IGmgUnvn0+/oqZmLeyuxG9l3phjhRr+dfNaplvkI6qY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:41:09 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9004,19 +9172,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wORdhaZtkaP0wzwSSsVESfGIGtLBqnnETU8n/+Oj/FE=\""
+          "Value": "W/\"EGm2wbRb2X9upKcvl91jHXe32EGfR+6P3zXKOzFxdbo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wORdhaZtkaP0wzwSSsVESfGIGtLBqnnETU8n/+Oj/FE="
+          "Value": "sha256-EGm2wbRb2X9upKcvl91jHXe32EGfR+6P3zXKOzFxdbo="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\49622b7smd-4zti7v3thz.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\49622b7smd-cdvlveea2l.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9025,7 +9193,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8774"
+          "Value": "8773"
         },
         {
           "Name": "Content-Type",
@@ -9033,11 +9201,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ta2ryfggTW+8NTKXepDsg3UcD5Njm6ii44a3wVUDWdU=\""
+          "Value": "\"IGmgUnvn0+/oqZmLeyuxG9l3phjhRr+dfNaplvkI6qY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:41:09 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9055,7 +9223,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ta2ryfggTW+8NTKXepDsg3UcD5Njm6ii44a3wVUDWdU="
+          "Value": "sha256-IGmgUnvn0+/oqZmLeyuxG9l3phjhRr+dfNaplvkI6qY="
         }
       ]
     },
@@ -10166,7 +10334,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25648"
+          "Value": "33748"
         },
         {
           "Name": "Content-Type",
@@ -10174,11 +10342,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BCtHmskfbHgDcgsmUUBDQ98gL0Ro1B6rrmcuEwTwdRk=\""
+          "Value": "\"mVDlXel5FPvFXuVSQb2BKx2vRm6bu9mzNi5yKl9pymk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:45:24 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10188,18 +10356,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BCtHmskfbHgDcgsmUUBDQ98gL0Ro1B6rrmcuEwTwdRk="
+          "Value": "sha256-mVDlXel5FPvFXuVSQb2BKx2vRm6bu9mzNi5yKl9pymk="
         }
       ]
     },
     {
       "Route": "_framework/Esport.Client.pdb",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\n6qfi3rhp6-0xm8ti0dpi.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\n6qfi3rhp6-v28mdgn4gk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000050630348"
+          "Quality": "0.000038449708"
         }
       ],
       "ResponseHeaders": [
@@ -10209,15 +10377,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19750"
+          "Value": "26007"
         },
         {
           "Name": "ETag",
-          "Value": "\"G0vcBxZo2I2GK6OIKDBDrzZXg1WFjnox1qqS5JyjzYc=\""
+          "Value": "\"af+ew0ysiQoGPCNQ+0dc/OTVWAacziFuyGzM4xiHn3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:41:08 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10237,19 +10405,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BCtHmskfbHgDcgsmUUBDQ98gL0Ro1B6rrmcuEwTwdRk=\""
+          "Value": "W/\"mVDlXel5FPvFXuVSQb2BKx2vRm6bu9mzNi5yKl9pymk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BCtHmskfbHgDcgsmUUBDQ98gL0Ro1B6rrmcuEwTwdRk="
+          "Value": "sha256-mVDlXel5FPvFXuVSQb2BKx2vRm6bu9mzNi5yKl9pymk="
         }
       ]
     },
     {
       "Route": "_framework/Esport.Client.pdb.gz",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\n6qfi3rhp6-0xm8ti0dpi.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\n6qfi3rhp6-v28mdgn4gk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10258,7 +10426,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19750"
+          "Value": "26007"
         },
         {
           "Name": "Content-Type",
@@ -10266,11 +10434,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"G0vcBxZo2I2GK6OIKDBDrzZXg1WFjnox1qqS5JyjzYc=\""
+          "Value": "\"af+ew0ysiQoGPCNQ+0dc/OTVWAacziFuyGzM4xiHn3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:41:08 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10288,7 +10456,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-G0vcBxZo2I2GK6OIKDBDrzZXg1WFjnox1qqS5JyjzYc="
+          "Value": "sha256-af+ew0ysiQoGPCNQ+0dc/OTVWAacziFuyGzM4xiHn3Y="
         }
       ]
     },
@@ -10303,7 +10471,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26389"
+          "Value": "44309"
         },
         {
           "Name": "Content-Type",
@@ -10311,11 +10479,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ul1uGceoR0s655EcHarfvGoDs6rQxmS4zvtFPpAL/sw=\""
+          "Value": "\"eTNVgPdpfC3D0XgCkWNGo9Sf3QxgbnWXHJ/U8mjbqLo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:45:24 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10325,18 +10493,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ul1uGceoR0s655EcHarfvGoDs6rQxmS4zvtFPpAL/sw="
+          "Value": "sha256-eTNVgPdpfC3D0XgCkWNGo9Sf3QxgbnWXHJ/U8mjbqLo="
         }
       ]
     },
     {
       "Route": "_framework/Esport.Client.wasm",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\ml38pf23c1-yqjjbikvc9.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\ml38pf23c1-743rg15m2b.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000088191199"
+          "Quality": "0.000069808028"
         }
       ],
       "ResponseHeaders": [
@@ -10346,15 +10514,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11338"
+          "Value": "14324"
         },
         {
           "Name": "ETag",
-          "Value": "\"Q5boQ3sS4ySl5PNzv/n53QsNGz5jvKvjDJ6aWh3gRxc=\""
+          "Value": "\"OwiSfEra6HMcQ9BdqlFkHbe8RJFhlYDqerpes7G12Ek=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:41:09 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10374,19 +10542,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ul1uGceoR0s655EcHarfvGoDs6rQxmS4zvtFPpAL/sw=\""
+          "Value": "W/\"eTNVgPdpfC3D0XgCkWNGo9Sf3QxgbnWXHJ/U8mjbqLo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ul1uGceoR0s655EcHarfvGoDs6rQxmS4zvtFPpAL/sw="
+          "Value": "sha256-eTNVgPdpfC3D0XgCkWNGo9Sf3QxgbnWXHJ/U8mjbqLo="
         }
       ]
     },
     {
       "Route": "_framework/Esport.Client.wasm.gz",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\ml38pf23c1-yqjjbikvc9.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\ml38pf23c1-743rg15m2b.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10395,7 +10563,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11338"
+          "Value": "14324"
         },
         {
           "Name": "Content-Type",
@@ -10403,11 +10571,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Q5boQ3sS4ySl5PNzv/n53QsNGz5jvKvjDJ6aWh3gRxc=\""
+          "Value": "\"OwiSfEra6HMcQ9BdqlFkHbe8RJFhlYDqerpes7G12Ek=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:41:09 GMT"
+          "Value": "Fri, 21 Feb 2025 14:13:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10425,7 +10593,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Q5boQ3sS4ySl5PNzv/n53QsNGz5jvKvjDJ6aWh3gRxc="
+          "Value": "sha256-OwiSfEra6HMcQ9BdqlFkHbe8RJFhlYDqerpes7G12Ek="
         }
       ]
     },
@@ -10440,7 +10608,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13092"
+          "Value": "13284"
         },
         {
           "Name": "Content-Type",
@@ -10448,11 +10616,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JGsy9m7OTFSGUIA9u7UBmPFkzvC3x6aX32xMZub/d0M=\""
+          "Value": "\"aupEUJets5lp3cxb/VPgR4b2TIaVMfK/EyUBIZbLSXY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:34:08 GMT"
+          "Value": "Fri, 21 Feb 2025 13:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10462,18 +10630,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JGsy9m7OTFSGUIA9u7UBmPFkzvC3x6aX32xMZub/d0M="
+          "Value": "sha256-aupEUJets5lp3cxb/VPgR4b2TIaVMfK/EyUBIZbLSXY="
         }
       ]
     },
     {
       "Route": "_framework/Esport.Shared.pdb",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\mkzitv44bp-ketggf3by3.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\mkzitv44bp-yisk1rf1p5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000133994372"
+          "Quality": "0.000132749237"
         }
       ],
       "ResponseHeaders": [
@@ -10483,15 +10651,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7462"
+          "Value": "7532"
         },
         {
           "Name": "ETag",
-          "Value": "\"GDOq3Ved3FJW1Gmm/7fyXc2EaBMKgKlNjaobHm3RhyA=\""
+          "Value": "\"FuaHFn/jhBbXYUB8yhdd4MQbr2oLWo0gLi/m4wVmkWE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:34:08 GMT"
+          "Value": "Fri, 21 Feb 2025 13:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10511,19 +10679,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JGsy9m7OTFSGUIA9u7UBmPFkzvC3x6aX32xMZub/d0M=\""
+          "Value": "W/\"aupEUJets5lp3cxb/VPgR4b2TIaVMfK/EyUBIZbLSXY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JGsy9m7OTFSGUIA9u7UBmPFkzvC3x6aX32xMZub/d0M="
+          "Value": "sha256-aupEUJets5lp3cxb/VPgR4b2TIaVMfK/EyUBIZbLSXY="
         }
       ]
     },
     {
       "Route": "_framework/Esport.Shared.pdb.gz",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\mkzitv44bp-ketggf3by3.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\mkzitv44bp-yisk1rf1p5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10532,7 +10700,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7462"
+          "Value": "7532"
         },
         {
           "Name": "Content-Type",
@@ -10540,11 +10708,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GDOq3Ved3FJW1Gmm/7fyXc2EaBMKgKlNjaobHm3RhyA=\""
+          "Value": "\"FuaHFn/jhBbXYUB8yhdd4MQbr2oLWo0gLi/m4wVmkWE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:34:08 GMT"
+          "Value": "Fri, 21 Feb 2025 13:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10562,7 +10730,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GDOq3Ved3FJW1Gmm/7fyXc2EaBMKgKlNjaobHm3RhyA="
+          "Value": "sha256-FuaHFn/jhBbXYUB8yhdd4MQbr2oLWo0gLi/m4wVmkWE="
         }
       ]
     },
@@ -10585,11 +10753,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6pnMhzocwuflquY0M2VI6Rnt2/uPWvdt+KZ92v3Ok7k=\""
+          "Value": "\"iijD5BNK43YPCSCwurkB2DdUUUhQ75Q8fbA7oPJ5O9E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:34:09 GMT"
+          "Value": "Fri, 21 Feb 2025 13:34:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10599,18 +10767,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6pnMhzocwuflquY0M2VI6Rnt2/uPWvdt+KZ92v3Ok7k="
+          "Value": "sha256-iijD5BNK43YPCSCwurkB2DdUUUhQ75Q8fbA7oPJ5O9E="
         }
       ]
     },
     {
       "Route": "_framework/Esport.Shared.wasm",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\0pagpi68tj-eeh4prrmgw.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\0pagpi68tj-m93strqsay.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000126198889"
+          "Quality": "0.000123961820"
         }
       ],
       "ResponseHeaders": [
@@ -10620,15 +10788,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7923"
+          "Value": "8066"
         },
         {
           "Name": "ETag",
-          "Value": "\"FGoIl71QbuubuMXKtNACG7evYhpjyNWQGAAnrySAT80=\""
+          "Value": "\"OzSGs341YbfTrKM4T++t8m+Gs4fatSeABA8Y2ovQweg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:34:09 GMT"
+          "Value": "Fri, 21 Feb 2025 13:34:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10648,19 +10816,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6pnMhzocwuflquY0M2VI6Rnt2/uPWvdt+KZ92v3Ok7k=\""
+          "Value": "W/\"iijD5BNK43YPCSCwurkB2DdUUUhQ75Q8fbA7oPJ5O9E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6pnMhzocwuflquY0M2VI6Rnt2/uPWvdt+KZ92v3Ok7k="
+          "Value": "sha256-iijD5BNK43YPCSCwurkB2DdUUUhQ75Q8fbA7oPJ5O9E="
         }
       ]
     },
     {
       "Route": "_framework/Esport.Shared.wasm.gz",
-      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\0pagpi68tj-eeh4prrmgw.gz",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\obj\\Debug\\net8.0\\compressed\\0pagpi68tj-m93strqsay.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10669,7 +10837,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7923"
+          "Value": "8066"
         },
         {
           "Name": "Content-Type",
@@ -10677,11 +10845,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FGoIl71QbuubuMXKtNACG7evYhpjyNWQGAAnrySAT80=\""
+          "Value": "\"OzSGs341YbfTrKM4T++t8m+Gs4fatSeABA8Y2ovQweg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 13:34:09 GMT"
+          "Value": "Fri, 21 Feb 2025 13:34:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10699,7 +10867,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FGoIl71QbuubuMXKtNACG7evYhpjyNWQGAAnrySAT80="
+          "Value": "sha256-OzSGs341YbfTrKM4T++t8m+Gs4fatSeABA8Y2ovQweg="
         }
       ]
     },
@@ -37938,6 +38106,88 @@
       ]
     },
     {
+      "Route": "noimage.5b957oojt9.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\noimage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:00:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5b957oojt9"
+        },
+        {
+          "Name": "label",
+          "Value": "noimage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8="
+        }
+      ]
+    },
+    {
+      "Route": "noimage.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\noimage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:00:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8="
+        }
+      ]
+    },
+    {
       "Route": "sample-data/weather.iag0ou56lh.json",
       "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\sample-data\\weather.json",
       "Selectors": [],
@@ -38098,6 +38348,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-ksCrPvBBtKCaZLsCSlYcpMKXaQIZfvixrEGjOj2LLI4="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/2.lfeao7l6js.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 13:59:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lfeao7l6js"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/2.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 13:59:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/24272001-a0e7-49b7-adca-ae078300ec49.n6mic0fqwq.pdf",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:38:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n6mic0fqwq"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/24272001-a0e7-49b7-adca-ae078300ec49.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:38:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/3.g3srci1rm1.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:00:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g3srci1rm1"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/3.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:00:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/4.ah3i820xme.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:01:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ah3i820xme"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/4.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:01:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/5.hx6xhxconj.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:02:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hx6xhxconj"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/5.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:02:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/6.9114sb9b70.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1048535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:02:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9114sb9b70"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/6.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1048535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:02:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/7.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:03:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/7.qo52dbv20i.png",
+      "AssetFile": "C:\\ProjectsC#\\Esport\\Esport.Client\\wwwroot\\teamlogo\\7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 14:03:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qo52dbv20i"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84="
         }
       ]
     }
