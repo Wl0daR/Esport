@@ -11,6 +11,7 @@ namespace Esport.Shared.DTO
         public DateTime DateOfBirth { get; set; }
         public string Country { get; set; } = string.Empty;
         public string Role { get; set; } = string.Empty;
-        public Team team {get; set;}
+        public int teamId { get; set; }
+        public Team? team { get; set; }
     }
 }

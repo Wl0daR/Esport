@@ -1,0 +1,81 @@
+﻿@using Esport.Shared.DTO
+@using Esport.Shared.Models
+@typeparam TModel where TModel : PlayerDto, new()
+
+<AuthorizeView Roles="Administrator">
+    <Authorized Context="authState">
+        <EditForm Model="@Model" OnValidSubmit="OnValidForm">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="form-group">
+                <label>Imię:</label>
+                <InputText @bind-Value="Model.FirstName" class="form-control" placeholder="Podaj imię" />
+            </div>
+            <div class="form-group">
+                <label>Pseudonim:</label>
+                <InputText @bind-Value="Model.Nickname" class="form-control" placeholder="Podaj pseudonim" />
+            </div>
+            <div class="form-group">
+                <label>Nazwisko:</label>
+                <InputText @bind-Value="Model.LastName" class="form-control" placeholder="Podaj nazwisko" />
+            </div>
+            <div class="form-group">
+                <label>Data urodzenia:</label>
+                <InputDate @bind-Value="Model.DateOfBirth" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Kraj:</label>
+                <InputText @bind-Value="Model.Country" class="form-control" placeholder="Podaj kraj" />
+            </div>
+            <div class="form-group">
+                <label>Rola:</label>
+                <InputText @bind-Value="Model.Role" class="form-control" placeholder="Podaj rolę" />
+            </div>
+            <div class="form-group">
+                <label>Drużyna:</label>
+                @if (Teams is null)
+                {
+                    <p>Ładowanie drużyn...</p>
+                }
+                else if (!Teams.Any())
+                {
+                    <p>Brak dostępnych drużyn.</p>
+                }
+                else
+                {
+                    <InputSelect @bind-Value="Model.teamId" class="form-control">
+                        <option value="">-- Wybierz drużynę --</option>
+                        @foreach (var team in Teams)
+                        {
+                            <option value="@team.Id">@team.Name</option>
+                        }
+                    </InputSelect>
+                }
+            </div>
+            <button type="submit" class="btn">@SubmitButtonText</button>
+        </EditForm>
+    </Authorized>
+    <NotAuthorized>
+        <p>Page not found.</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    [Parameter]
+    public TModel Model { get; set; } = new TModel();
+
+    [Parameter]
+    public List<TeamDto>? Teams { get; set; }
+
+    [Parameter]
+    public EventCallback OnValidSubmit { get; set; }
+
+    [Parameter]
+    public string SubmitButtonText { get; set; } = "Zapisz";
+
+    private async Task OnValidForm()
+    {
+        await OnValidSubmit.InvokeAsync();
+    }
+}

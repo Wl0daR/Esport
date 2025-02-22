@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Esport.WebApi.Data;
+using Esport.Shared.DTO;
 
 namespace Esport.WebApi.Controllers
 {
@@ -67,6 +68,53 @@ namespace Esport.WebApi.Controllers
 
             return Ok(player);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddPlayer([FromBody] PlayerDto model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            // Mapowanie z DTO na encję Player
+            // Zakładamy, że encja Player ma właściwości odpowiadające polom DTO, a także dodatkową właściwość TeamId
+            if (model.teamId <= 0)
+            {
+                return BadRequest("Nie wybrano drużyny.");
+            }
+
+            var player = new Player
+            {
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                Nickname = model.Nickname,
+                DateOfBirth = model.DateOfBirth,
+                Country = model.Country,
+                Role = model.Role,
+                TeamId = model.teamId
+            };
+
+            _context.Players.Add(player);
+            await _context.SaveChangesAsync();
+
+            // Zwracamy utworzonego gracza – CreatedAtAction pozwala także ustawić lokalizację
+            return CreatedAtAction(nameof(GetPlayer), new { id = player.Id }, player);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePlayer(int id)
+        {
+            var player = await _context.Players.FindAsync(id);
+            if (player == null)
+            {
+                return NotFound("Gracz nie został znaleziony.");
+            }
+
+            _context.Players.Remove(player);
+            await _context.SaveChangesAsync();
+
+            return Ok("Gracz został usunięty.");
+        }
+
 
     }
 }

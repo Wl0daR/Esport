@@ -1,14 +1,6 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page @(isDarkTheme ? "dark-theme" : "light-theme")">
-    <!-- Przełącznik motywu -->
-    <div class="checkbox-wrapper-3 theme-switch-container">
-        <!-- Używamy @bind, aby checkbox był powiązany z isDarkTheme -->
-        <input type="checkbox" id="cbx-3" @bind="isDarkTheme" class="theme-switch__input" />
-        <label for="cbx-3" class="toggle"><span></span></label>
-    </div>
-
-    <!-- Sidebar -->
     <div class="sidebar">
         <NavMenu />
     </div>

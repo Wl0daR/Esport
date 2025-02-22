@@ -1,8 +1,17 @@
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\css\site.css
 wwwroot\favicon.png
 wwwroot\icon-192.png
 wwwroot\index.html
+wwwroot\noimage.png
 wwwroot\sample-data\weather.json
 wwwroot\teamlogo\1.png
+wwwroot\teamlogo\2.png
+wwwroot\teamlogo\24272001-a0e7-49b7-adca-ae078300ec49.pdf
+wwwroot\teamlogo\3.png
+wwwroot\teamlogo\4.png
+wwwroot\teamlogo\5.png
+wwwroot\teamlogo\6.png
+wwwroot\teamlogo\7.png

@@ -13,49 +13,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Esport.Client
 build_property.RootNamespace = Esport.Client
-build_property.ProjectDir = C:\ProjectsC#\Esport\Esport.Client\
+build_property.ProjectDir = F:\projects\Esport\Esport.Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ProjectsC#\Esport\Esport.Client
+build_property.MSBuildProjectDirectory = F:\projects\Esport\Esport.Client
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/ProjectsC\#/Esport/Esport.Client/App.razor]
+[F:/projects/Esport/Esport.Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProjectsC\#/Esport/Esport.Client/Pages/Home.razor]
+[F:/projects/Esport/Esport.Client/Components/PlayerForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQbGF5ZXJGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/Esport/Esport.Client/Pages/Authorization/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXphdGlvblxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/Esport/Esport.Client/Pages/Authorization/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXphdGlvblxSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/Esport/Esport.Client/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProjectsC\#/Esport/Esport.Client/Pages/PlayerProfile.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyUHJvZmlsZS5yYXpvcg==
+[F:/projects/Esport/Esport.Client/Pages/Players/AddPlayer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xBZGRQbGF5ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProjectsC\#/Esport/Esport.Client/Pages/Players.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVycy5yYXpvcg==
+[F:/projects/Esport/Esport.Client/Pages/Players/EditPlayer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xFZGl0UGxheWVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProjectsC\#/Esport/Esport.Client/Pages/TeamProfile.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbVByb2ZpbGUucmF6b3I=
+[F:/projects/Esport/Esport.Client/Pages/Players/PlayerProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xQbGF5ZXJQcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProjectsC\#/Esport/Esport.Client/Pages/Teams.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXMucmF6b3I=
+[F:/projects/Esport/Esport.Client/Pages/Players/Players.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xQbGF5ZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProjectsC\#/Esport/Esport.Client/_Imports.razor]
+[F:/projects/Esport/Esport.Client/Pages/Teams/TeamProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcVGVhbVByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/Esport/Esport.Client/Pages/Teams/Teams.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcVGVhbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/Esport/Esport.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProjectsC\#/Esport/Esport.Client/Layout/MainLayout.razor]
+[F:/projects/Esport/Esport.Client/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9lc8rec62b
 
-[C:/ProjectsC\#/Esport/Esport.Client/Layout/NavMenu.razor]
+[F:/projects/Esport/Esport.Client/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-qcnhqg22iz
+
+[F:/projects/Esport/Esport.Client/Layout/TopBar.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFRvcEJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-b5jqkgl9n5

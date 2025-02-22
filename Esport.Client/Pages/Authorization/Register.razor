@@ -1,0 +1,57 @@
+﻿@page "/register"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<link href="css/site.css" rel="stylesheet" />
+<div class="auth-container">
+    <div class="auth-card">
+        <h2>Rejestracja</h2>
+        <EditForm Model="registerModel" OnValidSubmit="HandleRegister">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="form-group">
+                <label>Adres e-mail</label>
+                <InputText @bind-Value="registerModel.Email" class="form-control" placeholder="Podaj adres e-mail" />
+            </div>
+            <div class="form-group">
+                <label>Login</label>
+                <InputText @bind-Value="registerModel.Login" class="form-control" placeholder="Podaj login" />
+            </div>
+            <div class="form-group">
+                <label>Hasło</label>
+                <InputText @bind-Value="registerModel.Password" type="password" class="form-control" placeholder="Podaj hasło" />
+            </div>
+            <div class="form-group">
+                <label>Powtórz hasło</label>
+                <InputText @bind-Value="registerModel.ConfirmPassword" type="password" class="form-control" placeholder="Powtórz hasło" @onpaste:preventDefault />
+            </div>
+            <button type="submit" class="btn">Zarejestruj się</button>
+        </EditForm>
+        <p class="auth-footer">
+            Masz już konto? <a href="/login">Zaloguj się</a>
+        </p>
+        @if (!string.IsNullOrEmpty(message))
+        {
+            <p class="error">@message</p>
+        }
+    </div>
+</div>
+
+@code {
+    private Esport.Shared.DTO.RegisterModel registerModel = new Esport.Shared.DTO.RegisterModel();
+    private string message = string.Empty;
+
+    private async Task HandleRegister()
+    {
+        var response = await Http.PostAsJsonAsync("api/account/register", registerModel);
+        if (response.IsSuccessStatusCode)
+        {
+            message = "Rejestracja zakończona powodzeniem. Proszę się zalogować.";
+            NavigationManager.NavigateTo("/login");
+        }
+        else
+        {
+            message = "Rejestracja nie powiodła się.";
+        }
+    }
+}

@@ -1,0 +1,61 @@
+﻿.top-navbar {
+    background-color: #5D3FD3; /* Fioletowy kolor topbara */
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.top-navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo / tytuł aplikacji */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Nawigacja – elementy wyświetlane w jednym wierszu */
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+    .nav-menu .nav-link {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .nav-menu .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+/* Linki autoryzacji */
+.auth-links {
+    display: flex;
+    gap: 15px;
+}
+
+    .auth-links .nav-link {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .auth-links .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }

@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+
+<div class="top-navbar">
+    <div class="container">
+        <!-- Logo / Tytuł aplikacji -->
+        <a class="navbar-brand" href="/">Esport.Client</a>
+
+        <!-- Nawigacja -->
+        <nav class="nav-menu">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+            <NavLink class="nav-link" href="players">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
+                    <path d="M14 14s-1 0-1-1-1-4-5-4-5 3-5 4 1 1 1 1h8z" />
+                </svg> Players
+            </NavLink>
+            <NavLink class="nav-link" href="teams">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8z" />
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg> Teams
+            </NavLink>
+            <NavLink class="nav-link" href="tournaments">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16">
+                    <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5..." />
+                </svg> Tournaments
+            </NavLink>
+        </nav>
+
+        <!-- Linki logowania / rejestracji -->
+        <div class="auth-links">
+            <a class="nav-link" href="/login">Login</a>
+            <a class="nav-link" href="/register">Register</a>
+        </div>
+    </div>
+</div>

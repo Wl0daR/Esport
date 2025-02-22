@@ -1,0 +1,86 @@
+﻿@page "/login"
+@using Esport.Client.Services
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthStateProvider
+
+<link href="css/site.css" rel="stylesheet" />
+<div class="auth-container">
+    <div class="auth-card">
+        <h2>Logowanie</h2>
+        <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="form-group">
+                <label>Adres e-mail lub Login</label>
+                <InputText @bind-Value="loginModel.Identifier" class="form-control" placeholder="Podaj e-mail lub login" />
+            </div>
+            <div class="form-group">
+                <label>Hasło</label>
+                <InputText @bind-Value="loginModel.Password" type="password" class="form-control" placeholder="Podaj hasło" />
+            </div>
+            <button type="submit" class="btn">Zaloguj się</button>
+        </EditForm>
+        <p class="auth-footer">
+            Nie masz jeszcze konta? <a href="/register">Zarejestruj się</a>
+            <p>Return URL: @returnUrl</p>
+        </p>
+        @if (!string.IsNullOrEmpty(message))
+        {
+            <p class="error">@message</p>
+        }
+    </div>
+</div>
+
+@code {
+    private Esport.Shared.DTO.LoginModel loginModel = new Esport.Shared.DTO.LoginModel();
+    private string message = string.Empty;
+    private string? returnUrl;
+
+
+    protected override void OnInitialized()
+    {
+        var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+        Console.WriteLine($"Query: {uri.Query}");
+        if (!string.IsNullOrEmpty(uri.Query))
+        {
+            var query = QueryHelpers.ParseQuery(uri.Query);
+            if (query.TryGetValue("returnUrl", out var url))
+            {
+                returnUrl = url;
+                Console.WriteLine($"Return URL: {returnUrl}");
+            }
+            else
+            {
+                Console.WriteLine("Parametr 'returnUrl' nie został znaleziony.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Query string jest pusty.");
+        }
+    }
+
+
+    private async Task HandleLogin()
+    {
+        var response = await Http.PostAsJsonAsync("api/account/login", loginModel);
+        if (response.IsSuccessStatusCode)
+        {
+            var loginResult = await response.Content.ReadFromJsonAsync<Esport.Shared.DTO.LoginResult>();
+
+            // Aktualizujemy stan uwierzytelnienia, rzutując AuthStateProvider na CustomAuthenticationStateProvider
+            if (AuthStateProvider is CustomAuthenticationStateProvider customAuthProvider)
+            {
+                customAuthProvider.MarkUserAsAuthenticated(loginResult.UserName, loginResult.Role);
+            }
+
+            // Przeładowanie strony nie jest już konieczne
+            NavigationManager.NavigateTo(string.IsNullOrEmpty(returnUrl) ? "/" : returnUrl);
+        }
+        else
+        {
+            message = "Niepoprawne dane logowania.";
+        }
+    }
+}

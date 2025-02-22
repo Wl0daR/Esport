@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Esport.Shared.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace Esport.WebApi.Data
 {
     // Jeśli korzystasz z Identity, pamiętaj, aby dziedziczyć po IdentityDbContext (co zapewnia integrację z Identity)
-    public class EsportDbContext : IdentityDbContext
+    public class EsportDbContext : IdentityDbContext<IdentityUser>
     {
         public EsportDbContext(DbContextOptions<EsportDbContext> options)
             : base(options)

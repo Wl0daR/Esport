@@ -1,0 +1,157 @@
+﻿@page "/players/edit/{PlayerId:int}"
+@attribute [Authorize(Roles = "Administrator")]
+@using Esport.Shared.DTO
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Esport.Client.Components
+@using Microsoft.AspNetCore.Authorization
+
+
+<h3>Edycja gracza</h3>
+
+@if (playerModel == null)
+{
+    <p>Ładowanie danych gracza...</p>
+}
+else
+{
+    <button class="btn-player-delete" @onclick="DeletePlayer">Usuń</button>
+    <PlayerForm Model="playerModel" Teams="teams" OnValidSubmit="OnValidForm" SubmitButtonText="Zapisz" />
+    <button class="btn" @onclick="GoBack">Powrót do listy graczy</button>
+}
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <p class="error">@message</p>
+}
+
+@code {
+    [Parameter]
+    public int playerId { get; set; }
+
+    private PlayerDto? playerModel;
+    private List<TeamDto>? teams;
+    private string message = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Pobierz dane gracza
+        playerModel = await Http.GetFromJsonAsync<PlayerDto>($"api/players/{playerId}");
+        // Pobierz listę drużyn
+        teams = await Http.GetFromJsonAsync<List<TeamDto>>("api/teams");
+    }
+
+    private async Task OnValidForm()
+    {
+        // Aktualizujemy dane gracza – zakładamy, że endpoint PUT api/players/{playerId} obsługuje aktualizację
+        var response = await Http.PutAsJsonAsync($"api/players/{playerId}", playerModel);
+        if (response.IsSuccessStatusCode)
+        {
+            NavigationManager.NavigateTo("/players");
+        }
+        else
+        {
+            message = "Wystąpił błąd podczas aktualizacji danych gracza.";
+        }
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/players");
+    }
+    private async Task DeletePlayer()
+    {
+        var response = await Http.DeleteAsync($"api/Players/{playerId}");
+        if (response.IsSuccessStatusCode)
+        {
+            NavigationManager.NavigateTo("/players");
+        }
+        else
+        {
+            message = "Wystąpił błąd podczas usuwania gracza.";
+        }
+    }
+
+}
+<style>
+    .auth-container, .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        background: #f5f5f5;
+        padding: 20px;
+    }
+
+    .auth-card, .form-card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        padding: 2rem;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #555;
+        }
+
+    .form-control {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 0.7rem;
+        background-color: #6200ee;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 1rem;
+        transition: background-color 0.3s;
+    }
+
+        .btn:hover {
+            background-color: #4e00d5;
+        }
+
+    .error {
+        color: red;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .btn-player-delete{
+        padding: 0.4rem;
+        background-color: red;
+        color: #fff;
+        border: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 1rem;
+        transition: background-color 0.3s;
+    }
+</style>
