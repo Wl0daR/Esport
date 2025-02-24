@@ -6,6 +6,12 @@
 
 <h3>Drużyny</h3>
 
+<AuthorizeView Roles="Administrator">
+    <Authorized>
+        <button class="btn-add-player" @onclick="GoToAddTeam">Dodaj</button>
+    </Authorized>
+</AuthorizeView>
+
 <div class="card-container">
     @if (teams == null)
     {
@@ -16,8 +22,8 @@
         @foreach (var team in teams)
         {
             <div class="team-card"
-                 @onmouseover="() => ShowPlayers(team.Id)"
-                 @onmouseleave="HidePlayers">
+            @onmouseover="() => ShowPlayers(team.Id)"
+            @onmouseleave="HidePlayers">
                 <!-- Nagłówek z nazwą drużyny jako link -->
                 <div class="team-header">
                     <span class="team-name-link" @onclick="() => GoToTeamProfile(team.Id)">
@@ -26,7 +32,8 @@
                 </div>
                 <!-- Kontener ze zdjęciem drużyny -->
                 <div class="team-image-container">
-                    <img class="team-image @(hoveredTeamId == team.Id ? "blurred" : "")" src="@($"/teamlogo/{team.Id}.png")" alt="@team.Name" />
+                    <img class="team-image @(hoveredTeamId == team.Id ? "blurred" : "")" src=@($"http://localhost:5122/teamlogo/{@team.Id}.png") alt="@team.Name" />
+
                     @if (hoveredTeamId == team.Id)
                     {
                         <div class="players-overlay">
@@ -83,6 +90,10 @@
     private void GoToTeamProfile(int id)
     {
         NavigationManager.NavigateTo($"/teamprofile/{id}");
+    }
+    private void GoToAddTeam(MouseEventArgs args)
+    {
+        throw new NotImplementedException();
     }
 }
 

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Esport.Client",
   "resources": {
-    "hash": "sha256-yj17lr7R8jCepfsA/dIMjGTM0BFy7oxHzPMHf/pvSO8=",
+    "hash": "sha256-chTelAe1XNDKiVf2Ce0LvpDDqt4BnUaQKVIhJjVjpqg=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-xNQsYHtL1vcbrVTHDZAwJM4WovpoyjsrM2C6FQ8cW1w="
     },
@@ -24,6 +24,9 @@
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-y+vSHfxfthNQLuI3YYqbRnwPOD49aCCNjYLZudiE3q4=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-e4hqkIPdVVdFFXvJs2Z6QafKhk12fDzlKQKxa83DtLo=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-iYwWRHCaYqK1f3lFW+fg6B8/gZmo+j33ZABi/MGP+kw=",
+      "Microsoft.AspNetCore.Http.wasm": "sha256-P7u++4zIBAR6s/X8yOsyscat1H9SsWsnAnBNrm4OxlA=",
+      "Microsoft.AspNetCore.Http.Abstractions.wasm": "sha256-7wgz1ZHwXmXV8y00xn+jT4BGeuCQQbVYGQl+PNvBfnQ=",
+      "Microsoft.AspNetCore.Http.Features.wasm": "sha256-bzIPAVp+XhD63CRn9cVTB4tJRU+oDEAuwFYoHytMhUk=",
       "Microsoft.AspNetCore.Metadata.wasm": "sha256-zMam9mVqxQEy1t0AO7885plNzJJMIj7WTLYpglj2Hrg=",
       "Microsoft.AspNetCore.WebUtilities.wasm": "sha256-Nqy1TVm717mkFXz+j67ncyuAifcLsF/ib2kjstsg19A=",
       "Microsoft.Extensions.Configuration.wasm": "sha256-UDGEQR7J3WTfzYMgOzxVIBwFQtKEeJvO8UgrWagypdE=",
@@ -38,6 +41,7 @@
       "Microsoft.Extensions.FileSystemGlobbing.wasm": "sha256-AnWUKd0qJ8ZNKkRC0AFK2cjjszB7reXiP+bXdIi8bic=",
       "Microsoft.Extensions.Logging.wasm": "sha256-pa0M3exxNvk6g5anUwlaPC99Afawsi1GZvJeU1q/ZGM=",
       "Microsoft.Extensions.Logging.Abstractions.wasm": "sha256-uf1KJp0fVm0d3Bs2JFD1oxo857dVH+MA9AF/tlH5YEw=",
+      "Microsoft.Extensions.ObjectPool.wasm": "sha256-EYv4WgG4xV6cTOipWqdLbUzWXGqStEcSUobakoWU0f8=",
       "Microsoft.Extensions.Options.wasm": "sha256-5/m+yVFGRuY+N4jQnD+QETKH0AfhAsnVze5dJ5ogIVM=",
       "Microsoft.Extensions.Primitives.wasm": "sha256-pVrYOTfjb2ITls3LKIByW1t8jwOAWFhmkIVDewtJ1GE=",
       "Microsoft.JSInterop.wasm": "sha256-cVjO85Az0jo43ik04zeWlVCX/lQnwh64NvqbNMQM8ac=",
@@ -212,12 +216,12 @@
       "mscorlib.wasm": "sha256-RAf5jgXLg+06C4tJ3CabxAZaVjCN2/+E6fxRjRN8yHk=",
       "netstandard.wasm": "sha256-KCAE8RQwTurP5pGnGF819qf9sK++2O0rXzt6tOjlfi8=",
       "System.Private.CoreLib.wasm": "sha256-LQqLbHgeEX4HONx7GwIxGgmzIXP6n2OPxqnq+/4Tyqk=",
-      "Esport.Shared.wasm": "sha256-BxU8k9+Uj9abPRlhnaNSFkIkczVTYeawaalVLN/LreE=",
-      "Esport.Client.wasm": "sha256-OBSRsMcI5YAgBJJLPVypd+snmnetdeSzTm3yTYq8f7Y="
+      "Esport.Shared.wasm": "sha256-2Pa3IYuWgbhO+ZpScHthtKxPCiG9h8nJEIDnlALrLbc=",
+      "Esport.Client.wasm": "sha256-VLisD6W6pn1FocoS+p/W7xv69zOvGedsbxPow130ycU="
     },
     "pdb": {
-      "Esport.Shared.pdb": "sha256-PZa7MQv9KD27nS/3HoSDSXd+ycaM3J8pVQXOIh8hm+g=",
-      "Esport.Client.pdb": "sha256-nisWLyxKi6ztGBtmdg2Y/h5Zg2Jjr4JDt1DuXd/ZHTo="
+      "Esport.Shared.pdb": "sha256-1ELEd6UmFJO9W+YrC/glJnaz1/W8LBj8JFN+pGfFHUs=",
+      "Esport.Client.pdb": "sha256-ignGzgMw0bCKcLohlvzGgdNBGxD3VbgwC99angavqa8="
     }
   },
   "cacheBootResources": true,

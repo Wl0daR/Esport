@@ -14,6 +14,7 @@ namespace Esport.Shared.Models
         public DateTime TournamentDate { get; set; }
         public string Location { get; set; } = null!;
         public decimal PrizePool { get; set; }
+        public string? ImagePath { get; set; }
 
         // Relacja wiele-do-wielu z drużynami
         public ICollection<Team> Teams { get; set; } = new List<Team>();

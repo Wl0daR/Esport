@@ -58,6 +58,7 @@ using (var scope = app.Services.CreateScope())
     await RoleSeeder.SeedRolesAsync(services);
 }
 
+app.UseStaticFiles();
 app.UseCors("AllowClientApp");
 app.UseHttpsRedirection();
 app.UseAuthentication();

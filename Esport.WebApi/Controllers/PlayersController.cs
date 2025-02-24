@@ -11,10 +11,12 @@ namespace Esport.WebApi.Controllers
     public class PlayersController : ControllerBase
     {
         private readonly EsportDbContext _context;
+        private IWebHostEnvironment _env;
 
-        public PlayersController(EsportDbContext context)
+        public PlayersController(EsportDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
 
         [HttpGet]
@@ -25,35 +27,99 @@ namespace Esport.WebApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdatePlayer(int id, [FromBody] Player updatedPlayer)
+        public async Task<IActionResult> UpdatePlayer(int id, [FromForm] PlayerFormData formData)
         {
-            if (id != updatedPlayer.Id)
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            // Deserializujemy dane gracza z pola PlayerJson
+            Esport.Shared.DTO.PlayerDto? updatedDto;
+            try
             {
-                return BadRequest("ID w URL musi być zgodne z ID gracza.");
+                updatedDto = System.Text.Json.JsonSerializer.Deserialize<Esport.Shared.DTO.PlayerDto>(
+                    formData.PlayerJson,
+                    new System.Text.Json.JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Nieprawidłowe dane gracza: " + ex.Message);
             }
 
-            // Ustaw stan encji jako zmodyfikowanej
-            _context.Entry(updatedPlayer).State = EntityState.Modified;
+            if (updatedDto == null)
+                return BadRequest("Dane gracza są puste.");
 
+            if (id != updatedDto.Id)
+                return BadRequest("ID w URL musi być zgodne z ID gracza.");
+
+            // Pobieramy istniejącego gracza z bazy
+            var player = await _context.Players.FindAsync(id);
+            if (player == null)
+                return NotFound("Gracz nie został znaleziony.");
+
+            if (updatedDto.ImagePath == null && !string.IsNullOrEmpty(player.ImagePath))
+            {
+                var basePath = _env.WebRootPath ?? Directory.GetCurrentDirectory();
+                var filePath = Path.Combine(basePath, player.ImagePath.TrimStart('/'));
+                if (System.IO.File.Exists(filePath))
+                {
+                    System.IO.File.Delete(filePath);
+                }
+                player.ImagePath = null;
+            }
+
+            // Aktualizacja pól gracza
+            player.FirstName = updatedDto.FirstName;
+            player.LastName = updatedDto.LastName;
+            player.Nickname = updatedDto.Nickname;
+            player.DateOfBirth = updatedDto.DateOfBirth;
+            player.Country = updatedDto.Country;
+            player.Role = updatedDto.Role;
+            player.TeamId = updatedDto.TeamId;
+            player.ImagePath = updatedDto.ImagePath;
+
+            _context.Entry(player).State = EntityState.Modified;
             try
             {
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
-                // Sprawdź, czy gracz o podanym ID istnieje
                 if (!_context.Players.Any(p => p.Id == id))
-                {
                     return NotFound();
-                }
                 else
-                {
                     throw;
+            }
+
+            // Jeśli przesłano nowy plik obrazu, zapisz go i zaktualizuj ImagePath
+            if (formData.Image != null && formData.Image.Length > 0)
+            {
+                // Ustal bazową ścieżkę – używamy _env.WebRootPath, jeśli jest ustawione, w przeciwnym razie bieżący katalog
+                var basePath = _env.WebRootPath ?? Directory.GetCurrentDirectory();
+                var folderPath = Path.Combine(basePath, "playerimages");
+
+                if (!Directory.Exists(folderPath))
+                {
+                    Directory.CreateDirectory(folderPath);
                 }
+
+                var fileName = $"{player.Id}{Path.GetExtension(formData.Image.FileName)}";
+                var filePath = Path.Combine(folderPath, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await formData.Image.CopyToAsync(stream);
+                }
+
+                player.ImagePath = $"/playerimages/{fileName}";
+                _context.Players.Update(player);
+                await _context.SaveChangesAsync();
             }
 
             return NoContent();
         }
+
+
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetPlayer(int id)
         {
@@ -70,35 +136,74 @@ namespace Esport.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddPlayer([FromBody] PlayerDto model)
+        public async Task<IActionResult> AddPlayer([FromForm] PlayerFormData formData)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            // Mapowanie z DTO na encję Player
-            // Zakładamy, że encja Player ma właściwości odpowiadające polom DTO, a także dodatkową właściwość TeamId
-            if (model.teamId <= 0)
+            PlayerDto? playerDto;
+            try
+            {
+                playerDto = System.Text.Json.JsonSerializer.Deserialize<PlayerDto>(
+                    formData.PlayerJson,
+                    new System.Text.Json.JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Nieprawidłowe dane gracza: " + ex.Message);
+            }
+
+            if (playerDto == null)
+                return BadRequest("Dane gracza są puste.");
+
+            if (playerDto.TeamId <= 0)
             {
                 return BadRequest("Nie wybrano drużyny.");
             }
 
+            // Mapowanie z DTO na encję Player
             var player = new Player
             {
-                FirstName = model.FirstName,
-                LastName = model.LastName,
-                Nickname = model.Nickname,
-                DateOfBirth = model.DateOfBirth,
-                Country = model.Country,
-                Role = model.Role,
-                TeamId = model.teamId
+                FirstName = playerDto.FirstName,
+                LastName = playerDto.LastName,
+                Nickname = playerDto.Nickname,
+                DateOfBirth = playerDto.DateOfBirth,
+                Country = playerDto.Country,
+                Role = playerDto.Role,
+                TeamId = playerDto.TeamId,
+                ImagePath = null // Na początku brak zdjęcia
             };
 
             _context.Players.Add(player);
             await _context.SaveChangesAsync();
 
-            // Zwracamy utworzonego gracza – CreatedAtAction pozwala także ustawić lokalizację
+            // Jeśli przesłano plik, zapisz go i zaktualizuj rekord
+            if (formData.Image != null && formData.Image.Length > 0)
+            {
+                var basePath = _env.WebRootPath ?? Directory.GetCurrentDirectory();
+                var folderPath = Path.Combine(basePath, "playerimages");
+
+                if (!Directory.Exists(folderPath))
+                {
+                    Directory.CreateDirectory(folderPath);
+                }
+
+                var fileName = $"{player.Id}{Path.GetExtension(formData.Image.FileName)}";
+                var filePath = Path.Combine(folderPath, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await formData.Image.CopyToAsync(stream);
+                }
+
+                player.ImagePath = $"/playerimages/{fileName}";
+                _context.Players.Update(player);
+                await _context.SaveChangesAsync();
+            }
+
             return CreatedAtAction(nameof(GetPlayer), new { id = player.Id }, player);
         }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePlayer(int id)

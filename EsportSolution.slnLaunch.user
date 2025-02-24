@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nowy Profil",
+    "Projects": [
+      {
+        "Path": "Esport.WebApi\\Esport.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Esport.Client\\Esport.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

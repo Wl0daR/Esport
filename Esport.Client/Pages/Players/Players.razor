@@ -27,9 +27,11 @@ else
         {
             <div class="player-card" @onclick="() => GoToPlayerProfile(player.Id)">
                 <div class="player-header">
-                    <h4>@player.FirstName "@player.Nickname" @player.LastName (<span class="team-name">@player.team.Name</span>)</h4>
+                    <h4>@player.FirstName "@player.Nickname" @player.LastName (@player.team.Name)</h4>
                 </div>
-                <img class="player-portrait" src="@($"/playerportraits/{player.Id}.png")" alt="@player.Nickname" onerror="this.onerror=null;this.src='/noimage.png';" />
+                <div class="player-image-container">
+                    <img class="player-image" src=@($"http://localhost:5122/playerimages/{player.Id}.png") alt="@player.Nickname" onerror="this.onerror=null;this.src='/noimage.png';" />
+                </div>
             </div>
         }
     </div>
@@ -53,6 +55,7 @@ else
         NavigationManager.NavigateTo("/players/add");
     }
 }
+
 <style>
     .card-container {
         display: flex;
@@ -80,7 +83,6 @@ else
     }
 
     .player-header {
-        padding: 0.5rem;
         text-align: center;
         background-color: #f0f0f0;
     }
@@ -103,8 +105,9 @@ else
 
     .player-image {
         width: 100%;
-        height: 100%;
-        object-fit: contain;
+        max-width:190px;
+        height: auto;
+        object-fit: cover;
         transition: filter 0.3s ease-in-out;
     }
 

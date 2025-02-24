@@ -1,10 +1,11 @@
 ﻿@using Esport.Shared.DTO
 @using Esport.Shared.Models
+@using Esport.Client.Components
 @typeparam TModel where TModel : PlayerDto, new()
 
 <AuthorizeView Roles="Administrator">
     <Authorized Context="authState">
-        <EditForm Model="@Model" OnValidSubmit="OnValidForm">
+        <EditForm Model="@Model" OnValidSubmit="HandleValidSubmit">
             <DataAnnotationsValidator />
             <ValidationSummary />
 
@@ -44,7 +45,7 @@
                 }
                 else
                 {
-                    <InputSelect @bind-Value="Model.teamId" class="form-control">
+                    <InputSelect @bind-Value="Model.TeamId" class="form-control">
                         <option value="">-- Wybierz drużynę --</option>
                         @foreach (var team in Teams)
                         {
@@ -52,6 +53,16 @@
                         }
                     </InputSelect>
                 }
+            </div>
+            <div class="form-group" style="margin-top:1rem; display: flex; align-items: center; gap: 1rem;">
+                <label>Wgraj zdjęcie:</label>
+                <InputFile OnChange="HandleFileSelected" />
+                    @if (!string.IsNullOrEmpty(Model.ImagePath))
+                    {
+                        <div>
+                            <button class="btn-delete-image" @onclick="RemoveImage">Usuń zdjęcie</button>
+                        </div>
+                    }
             </div>
             <button type="submit" class="btn">@SubmitButtonText</button>
         </EditForm>
@@ -69,13 +80,37 @@
     public List<TeamDto>? Teams { get; set; }
 
     [Parameter]
-    public EventCallback OnValidSubmit { get; set; }
-
-    [Parameter]
     public string SubmitButtonText { get; set; } = "Zapisz";
 
-    private async Task OnValidForm()
+    // Callback, który zostanie wywołany przy pomyślnym zatwierdzeniu formularza
+    [Parameter]
+    public EventCallback<PlayerFormModel> OnValidSubmitCallback { get; set; }
+
+    private IBrowserFile? selectedFile;
+
+    private async Task HandleValidSubmit()
     {
-        await OnValidSubmit.InvokeAsync();
+        var formModel = new PlayerFormModel
+            {
+                Player = Model,
+                ImageFile = selectedFile
+            };
+        await OnValidSubmitCallback.InvokeAsync(formModel);
+    }
+
+    private void HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+    }
+
+    public class PlayerFormModel
+    {
+        public TModel Player { get; set; } = new TModel();
+        public IBrowserFile? ImageFile { get; set; }
+    }
+
+    public void RemoveImage()
+    {
+        Model.ImagePath = null;
     }
 }

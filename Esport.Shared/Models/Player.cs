@@ -19,5 +19,6 @@ namespace Esport.Shared.Models
         // Relacja z drużyną
         public int TeamId { get; set; }
         public Team Team { get; set; } = null!;
+        public string? ImagePath { get; set; }
     }
 }

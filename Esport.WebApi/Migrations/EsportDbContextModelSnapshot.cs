@@ -41,6 +41,9 @@ namespace Esport.WebApi.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -78,6 +81,9 @@ namespace Esport.WebApi.Migrations
                     b.Property<DateTime>("FoundedDate")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -94,6 +100,9 @@ namespace Esport.WebApi.Migrations
                         .HasColumnType("int");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Location")
                         .IsRequired()

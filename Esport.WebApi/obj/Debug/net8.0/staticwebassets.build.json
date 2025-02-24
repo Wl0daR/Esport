@@ -1,12 +1,1464 @@
 {
   "Version": 1,
-  "Hash": "2I9EPR4P90O/nk9XHL/j7fsPMGBMF0B+ZPS8tsEExs4=",
+  "Hash": "MuRvhrA0MKZqNEH2ZuCbuqBwEjbpl+WLqhPXJkQn//E=",
   "Source": "Esport.WebApi",
   "BasePath": "_content/Esport.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Esport.WebApi\\wwwroot",
+      "Source": "Esport.WebApi",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\favicon.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\icon-192.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "icon-192#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9uvjujlxy",
+      "Integrity": "DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\index.html",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wub6111r2r",
+      "Integrity": "iJa21XwGAxZ7onGt/iPcKYFSvtpPyNsnp4cGEEMDqzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\noimage.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "noimage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5b957oojt9",
+      "Integrity": "nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\noimage.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\playerimages\\39.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "playerimages/39#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aozwoe5o63",
+      "Integrity": "ZiOZ/EfLJL+RtnuGXHDr363aOFCldAH3y00IkzCq9Vc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\playerimages\\39.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\sample-data\\weather.json",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "sample-data/weather#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iag0ou56lh",
+      "Integrity": "enKgCMkYmCpfEcmg6Annbmc40VZ/A6aYYSQjZfVn2cU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\1.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "teamlogo/1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e4dobzp82i",
+      "Integrity": "ksCrPvBBtKCaZLsCSlYcpMKXaQIZfvixrEGjOj2LLI4=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\1.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\2.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "teamlogo/2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lfeao7l6js",
+      "Integrity": "kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\2.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "teamlogo/24272001-a0e7-49b7-adca-ae078300ec49#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n6mic0fqwq",
+      "Integrity": "zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\3.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "teamlogo/3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g3srci1rm1",
+      "Integrity": "BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\3.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\4.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "teamlogo/4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ah3i820xme",
+      "Integrity": "HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\4.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\5.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "teamlogo/5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hx6xhxconj",
+      "Integrity": "VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\5.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\6.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "teamlogo/6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9114sb9b70",
+      "Integrity": "PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\6.png"
+    },
+    {
+      "Identity": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\7.png",
+      "SourceId": "Esport.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\",
+      "BasePath": "_content/Esport.WebApi",
+      "RelativePath": "teamlogo/7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qo52dbv20i",
+      "Integrity": "ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teamlogo\\7.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "icon-192.f9uvjujlxy.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\icon-192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9uvjujlxy"
+        },
+        {
+          "Name": "label",
+          "Value": "icon-192.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4="
+        }
+      ]
+    },
+    {
+      "Route": "icon-192.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\icon-192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iJa21XwGAxZ7onGt/iPcKYFSvtpPyNsnp4cGEEMDqzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iJa21XwGAxZ7onGt/iPcKYFSvtpPyNsnp4cGEEMDqzc="
+        }
+      ]
+    },
+    {
+      "Route": "index.wub6111r2r.html",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iJa21XwGAxZ7onGt/iPcKYFSvtpPyNsnp4cGEEMDqzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wub6111r2r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iJa21XwGAxZ7onGt/iPcKYFSvtpPyNsnp4cGEEMDqzc="
+        }
+      ]
+    },
+    {
+      "Route": "noimage.5b957oojt9.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\noimage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5b957oojt9"
+        },
+        {
+          "Name": "label",
+          "Value": "noimage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8="
+        }
+      ]
+    },
+    {
+      "Route": "noimage.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\noimage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nzoA5Bp3upbku3RvMGnnZnRP79Qbma4iBmn1bP069V8="
+        }
+      ]
+    },
+    {
+      "Route": "playerimages/39.aozwoe5o63.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\playerimages\\39.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZiOZ/EfLJL+RtnuGXHDr363aOFCldAH3y00IkzCq9Vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 23:08:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aozwoe5o63"
+        },
+        {
+          "Name": "label",
+          "Value": "playerimages/39.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZiOZ/EfLJL+RtnuGXHDr363aOFCldAH3y00IkzCq9Vc="
+        }
+      ]
+    },
+    {
+      "Route": "playerimages/39.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\playerimages\\39.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZiOZ/EfLJL+RtnuGXHDr363aOFCldAH3y00IkzCq9Vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 23:08:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZiOZ/EfLJL+RtnuGXHDr363aOFCldAH3y00IkzCq9Vc="
+        }
+      ]
+    },
+    {
+      "Route": "sample-data/weather.iag0ou56lh.json",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\sample-data\\weather.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"enKgCMkYmCpfEcmg6Annbmc40VZ/A6aYYSQjZfVn2cU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iag0ou56lh"
+        },
+        {
+          "Name": "label",
+          "Value": "sample-data/weather.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-enKgCMkYmCpfEcmg6Annbmc40VZ/A6aYYSQjZfVn2cU="
+        }
+      ]
+    },
+    {
+      "Route": "sample-data/weather.json",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\sample-data\\weather.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"enKgCMkYmCpfEcmg6Annbmc40VZ/A6aYYSQjZfVn2cU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-enKgCMkYmCpfEcmg6Annbmc40VZ/A6aYYSQjZfVn2cU="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/1.e4dobzp82i.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ksCrPvBBtKCaZLsCSlYcpMKXaQIZfvixrEGjOj2LLI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e4dobzp82i"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ksCrPvBBtKCaZLsCSlYcpMKXaQIZfvixrEGjOj2LLI4="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/1.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ksCrPvBBtKCaZLsCSlYcpMKXaQIZfvixrEGjOj2LLI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ksCrPvBBtKCaZLsCSlYcpMKXaQIZfvixrEGjOj2LLI4="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/2.lfeao7l6js.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lfeao7l6js"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/2.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kcst3UK1okZHgXPRD+MIL3yKAKwWV13sA5uyXAqJXdg="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/24272001-a0e7-49b7-adca-ae078300ec49.n6mic0fqwq.pdf",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n6mic0fqwq"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/24272001-a0e7-49b7-adca-ae078300ec49.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzz9npfzp+UEmIUucs/DnSun6Eab86nOHfVoRqrR2Dw="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/3.g3srci1rm1.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g3srci1rm1"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/3.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BFWf3eM8wKXVvFoC0p9ekpKn3gIX+C4Euwx8PC+Vh5g="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/4.ah3i820xme.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ah3i820xme"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/4.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HnKzfKFrIANPn1GzZe3y7MCxjUFa+BGC09JDGk5mIdk="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/5.hx6xhxconj.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hx6xhxconj"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/5.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VTYoidm0Fh56YPmZfQ3ujHVgVwjA5AZPgPO3SETH5d4="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/6.9114sb9b70.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1048535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9114sb9b70"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/6.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1048535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PdbATmN7eT8SraNBfGZQOedrf7X6fODZZcHCfVa+USQ="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/7.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84="
+        }
+      ]
+    },
+    {
+      "Route": "teamlogo/7.qo52dbv20i.png",
+      "AssetFile": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 14:42:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qo52dbv20i"
+        },
+        {
+          "Name": "label",
+          "Value": "teamlogo/7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ts1Eww0tfInmcW3SRsbohYUnGQOhgE4lv5gbpk6UU84="
+        }
+      ]
+    }
+  ]
 }

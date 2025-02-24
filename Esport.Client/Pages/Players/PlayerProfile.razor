@@ -17,6 +17,9 @@
 }
 else
 {
+    <div class="player-image">
+        <img src=@($"http://localhost:5122/playerimages/{player.Id}.png") alt="@player.Nickname" onerror="this.onerror=null;this.src='/noimage.png';" />
+    </div>
     <div class="player-profile">
         <h4>@player.FirstName @player.Nickname @player.LastName</h4>
         <p><strong>Imię:</strong> @player.FirstName</p>

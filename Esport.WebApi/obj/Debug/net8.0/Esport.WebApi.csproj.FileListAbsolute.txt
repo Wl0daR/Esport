@@ -222,3 +222,8 @@ F:\projects\Esport\Esport.WebApi\obj\Debug\net8.0\refint\Esport.WebApi.dll
 F:\projects\Esport\Esport.WebApi\obj\Debug\net8.0\Esport.WebApi.pdb
 F:\projects\Esport\Esport.WebApi\obj\Debug\net8.0\Esport.WebApi.genruntimeconfig.cache
 F:\projects\Esport\Esport.WebApi\obj\Debug\net8.0\ref\Esport.WebApi.dll
+F:\projects\Esport\Esport.WebApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+F:\projects\Esport\Esport.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\projects\Esport\Esport.WebApi\bin\Debug\net8.0\Esport.WebApi.staticwebassets.runtime.json
+F:\projects\Esport\Esport.WebApi\bin\Debug\net8.0\wwwroot\teamlogo\1.png
+F:\projects\Esport\Esport.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

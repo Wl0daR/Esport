@@ -1,11 +1,11 @@
-﻿@page "/players/edit/{PlayerId:int}"
-@attribute [Authorize(Roles = "Administrator")]
+﻿@page "/players/edit/{playerId:int}"
 @using Esport.Shared.DTO
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
 @using Esport.Client.Components
 @using Microsoft.AspNetCore.Authorization
-
+@using Microsoft.AspNetCore.Components.Forms
+@using System.Net.Http.Headers
 
 <h3>Edycja gracza</h3>
 
@@ -15,8 +15,14 @@
 }
 else
 {
-    <button class="btn-player-delete" @onclick="DeletePlayer">Usuń</button>
-    <PlayerForm Model="playerModel" Teams="teams" OnValidSubmit="OnValidForm" SubmitButtonText="Zapisz" />
+    <AuthorizeView Roles="Administrator">
+        <Authorized>
+             <button class="btn-player-delete" @onclick="DeletePlayer">Usuń</button>
+        </Authorized> 
+    </AuthorizeView>
+    <PlayerForm Model="playerModel" Teams="teams"
+                OnValidSubmitCallback="@( (PlayerForm<PlayerDto>.PlayerFormModel formModel) => OnValidForm(formModel) )"
+                SubmitButtonText="Zapisz" />
     <button class="btn" @onclick="GoBack">Powrót do listy graczy</button>
 }
 
@@ -41,10 +47,25 @@ else
         teams = await Http.GetFromJsonAsync<List<TeamDto>>("api/teams");
     }
 
-    private async Task OnValidForm()
+    private async Task OnValidForm(PlayerForm<PlayerDto>.PlayerFormModel formModel)
     {
-        // Aktualizujemy dane gracza – zakładamy, że endpoint PUT api/players/{playerId} obsługuje aktualizację
-        var response = await Http.PutAsJsonAsync($"api/players/{playerId}", playerModel);
+        // Serializujemy zaktualizowane dane gracza do JSON
+        var playerJson = System.Text.Json.JsonSerializer.Serialize(formModel.Player);
+        // Przygotowujemy multipart/form-data
+        var content = new MultipartFormDataContent();
+        content.Add(new StringContent(playerJson), "PlayerJson");
+
+        // Jeśli użytkownik wybrał plik, dodajemy go do żądania
+        if (formModel.ImageFile != null)
+        {
+            var stream = formModel.ImageFile.OpenReadStream(10 * 1024 * 1024); // limit 10 MB
+            var fileContent = new StreamContent(stream);
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue(formModel.ImageFile.ContentType);
+            content.Add(fileContent, "Image", formModel.ImageFile.Name);
+        }
+
+        // Wywołujemy endpoint PUT, który obsługuje aktualizację gracza z opcjonalnym zdjęciem
+        var response = await Http.PutAsync($"api/players/{playerId}", content);
         if (response.IsSuccessStatusCode)
         {
             NavigationManager.NavigateTo("/players");
@@ -59,9 +80,10 @@ else
     {
         NavigationManager.NavigateTo("/players");
     }
+
     private async Task DeletePlayer()
     {
-        var response = await Http.DeleteAsync($"api/Players/{playerId}");
+        var response = await Http.DeleteAsync($"api/players/{playerId}");
         if (response.IsSuccessStatusCode)
         {
             NavigationManager.NavigateTo("/players");
@@ -73,6 +95,7 @@ else
     }
 
 }
+
 <style>
     .auth-container, .form-container {
         display: flex;
@@ -137,13 +160,19 @@ else
             background-color: #4e00d5;
         }
 
+    .btn{
+        display: flex;
+        
+    }
+
     .error {
         color: red;
         text-align: center;
         margin-top: 1rem;
     }
+
     .btn-player-delete{
-        padding: 0.4rem;
+        padding: 0.2rem;
         background-color: red;
         color: #fff;
         border: solid;
@@ -152,6 +181,18 @@ else
         cursor: pointer;
         font-size: 1rem;
         margin-top: 1rem;
+        transition: background-color 0.3s;
+    }
+
+    .btn-delete-image {
+        padding: 0.2rem;
+        background-color: red;
+        color: #fff;
+        border: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
         transition: background-color 0.3s;
     }
 </style>

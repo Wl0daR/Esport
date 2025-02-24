@@ -11,10 +11,12 @@ namespace Esport.Shared.Models
         // Nowe właściwości:
         public DateTime FoundedDate { get; set; }
         public string CountryOfOrigin { get; set; } = null!;
+        public string? ImagePath { get; set; }
 
         public ICollection<Player> Players { get; set; } = new List<Player>();
 
         // Relacja wiele-do-wielu z turniejami
         public ICollection<Tournament> Tournaments { get; set; } = new List<Tournament>();
+
     }
 }

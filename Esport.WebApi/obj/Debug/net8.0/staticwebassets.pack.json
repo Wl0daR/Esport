@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\noimage.png",
+      "PackagePath": "staticwebassets\\noimage.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\playerimages\\39.png",
+      "PackagePath": "staticwebassets\\playerimages\\39.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\1.png",
+      "PackagePath": "staticwebassets\\teamlogo\\1.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\2.png",
+      "PackagePath": "staticwebassets\\teamlogo\\2.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf",
+      "PackagePath": "staticwebassets\\teamlogo\\24272001-a0e7-49b7-adca-ae078300ec49.pdf"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\3.png",
+      "PackagePath": "staticwebassets\\teamlogo\\3.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\4.png",
+      "PackagePath": "staticwebassets\\teamlogo\\4.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\5.png",
+      "PackagePath": "staticwebassets\\teamlogo\\5.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\6.png",
+      "PackagePath": "staticwebassets\\teamlogo\\6.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\teamlogo\\7.png",
+      "PackagePath": "staticwebassets\\teamlogo\\7.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Esport.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Esport.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Esport.WebApi.props",
+      "PackagePath": "build\\Esport.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Esport.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\Esport.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Esport.WebApi.props",
+      "PackagePath": "buildTransitive\\Esport.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

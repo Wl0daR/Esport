@@ -1,15 +1,15 @@
 ﻿@page "/players/add"
-@using Microsoft.AspNetCore.Authorization
 @using Esport.Shared.DTO
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
 @using Esport.Client.Components
-
-
+@using Microsoft.AspNetCore.Components.Forms
+@using System.Net.Http.Headers
 
 <h3>Dodaj nowego gracza</h3>
 
-<PlayerForm Model="playerModel" Teams="teams" OnValidSubmit="OnValidForm" SubmitButtonText="Zapisz" />
+<PlayerForm Model="playerModel" Teams="teams" OnValidSubmitCallback="@( (PlayerForm<PlayerDto>.PlayerFormModel formModel) => OnValidForm(formModel) )" SubmitButtonText="Dodaj" />
+
 
 <button class="btn" @onclick="GoBack">Powrót do listy graczy</button>
 
@@ -28,9 +28,23 @@
         teams = await Http.GetFromJsonAsync<List<TeamDto>>("api/teams");
     }
 
-    private async Task OnValidForm()
+    private async Task OnValidForm(PlayerForm<PlayerDto>.PlayerFormModel formModel)
     {
-        var response = await Http.PostAsJsonAsync("api/Players", playerModel);
+        // Serializujemy dane gracza do JSON
+        var playerJson = System.Text.Json.JsonSerializer.Serialize(formModel.Player);
+        // Przygotowujemy multipart/form-data
+        var content = new MultipartFormDataContent();
+        content.Add(new StringContent(playerJson), "PlayerJson");
+
+        if (formModel.ImageFile != null)
+        {
+            var stream = formModel.ImageFile.OpenReadStream(10 * 1024 * 1024); // limit 10 MB
+            var fileContent = new StreamContent(stream);
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue(formModel.ImageFile.ContentType);
+            content.Add(fileContent, "Image", formModel.ImageFile.Name);
+        }
+
+        var response = await Http.PostAsync("api/players", content);
         if (response.IsSuccessStatusCode)
         {
             NavigationManager.NavigateTo("/players");
@@ -46,6 +60,7 @@
         NavigationManager.NavigateTo("/players");
     }
 }
+
 <style>
 .auth-container, .form-container {
     display: flex;
