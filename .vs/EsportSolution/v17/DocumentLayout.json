@@ -3,48 +3,76 @@
   "WorkspaceRootPath": "F:\\projects\\Esport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\players\\editplayer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\players\\editplayer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\tournaments\\tournamentprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\tournaments\\tournamentprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\players\\addplayer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\players\\addplayer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\teams\\teamprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\teams\\teamprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\components\\playerform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\components\\playerform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\tournaments\\tournaments.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\tournaments\\tournaments.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\players\\playerprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\players\\playerprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\teams\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\teams\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B238E761-4386-4F04-94BC-72995BEBDE3A}|Esport.WebApi\\Esport.WebApi.csproj|f:\\projects\\esport\\esport.webapi\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B238E761-4386-4F04-94BC-72995BEBDE3A}|Esport.WebApi\\Esport.WebApi.csproj|solutionrelative:esport.webapi\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B238E761-4386-4F04-94BC-72995BEBDE3A}|Esport.WebApi\\Esport.WebApi.csproj|f:\\projects\\esport\\esport.webapi\\controllers\\tournamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B238E761-4386-4F04-94BC-72995BEBDE3A}|Esport.WebApi\\Esport.WebApi.csproj|solutionrelative:esport.webapi\\controllers\\tournamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\dto\\playeroformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\dto\\playeroformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\dto\\tournamentformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\dto\\tournamentformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B238E761-4386-4F04-94BC-72995BEBDE3A}|Esport.WebApi\\Esport.WebApi.csproj|f:\\projects\\esport\\esport.webapi\\esport.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B238E761-4386-4F04-94BC-72995BEBDE3A}|Esport.WebApi\\Esport.WebApi.csproj|solutionrelative:esport.webapi\\esport.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\dto\\tournamentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\dto\\tournamentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\players\\players.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\players\\players.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\dto\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B238E761-4386-4F04-94BC-72995BEBDE3A}|Esport.WebApi\\Esport.WebApi.csproj|f:\\projects\\esport\\esport.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B238E761-4386-4F04-94BC-72995BEBDE3A}|Esport.WebApi\\Esport.WebApi.csproj|solutionrelative:esport.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\dto\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\dto\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|f:\\projects\\esport\\esport.shared\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47FDF957-E4B8-4C4F-8658-E39B5D22EF46}|Esport.Shared\\Esport.Shared.csproj|solutionrelative:esport.shared\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\authorization\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\authorization\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\teams\\editteam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\teams\\editteam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\components\\teamform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\components\\teamform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\players\\editplayer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\players\\editplayer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\components\\playerform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\components\\playerform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|f:\\projects\\esport\\esport.client\\pages\\teams\\addteam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479102B1-7552-473A-9A33-C33F3E1DBC1A}|Esport.Client\\Esport.Client.csproj|solutionrelative:esport.client\\pages\\teams\\addteam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,105 +87,222 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EditPlayer.razor",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\EditPlayer.razor",
-              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Players\\EditPlayer.razor",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\EditPlayer.razor",
-              "RelativeToolTip": "Esport.Client\\Pages\\Players\\EditPlayer.razor",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAAALwAAAAeAAAAAAAAAA==",
+              "Title": "TournamentProfile.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Tournaments\\TournamentProfile.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Tournaments\\TournamentProfile.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Tournaments\\TournamentProfile.razor",
+              "RelativeToolTip": "Esport.Client\\Pages\\Tournaments\\TournamentProfile.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T23:43:12.035Z",
+              "WhenOpened": "2025-02-26T03:14:48.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerForm.razor",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Components\\PlayerForm.razor",
-              "RelativeDocumentMoniker": "Esport.Client\\Components\\PlayerForm.razor",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Components\\PlayerForm.razor",
-              "RelativeToolTip": "Esport.Client\\Components\\PlayerForm.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Title": "Tournaments.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Tournaments\\Tournaments.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Tournaments\\Tournaments.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Tournaments\\Tournaments.razor",
+              "RelativeToolTip": "Esport.Client\\Pages\\Tournaments\\Tournaments.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAHoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T11:35:58.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddPlayer.razor",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\AddPlayer.razor",
-              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Players\\AddPlayer.razor",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\AddPlayer.razor",
-              "RelativeToolTip": "Esport.Client\\Pages\\Players\\AddPlayer.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T10:22:36.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerProfile.razor",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\PlayerProfile.razor",
-              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Players\\PlayerProfile.razor",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\PlayerProfile.razor",
-              "RelativeToolTip": "Esport.Client\\Pages\\Players\\PlayerProfile.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T23:39:54.161Z",
+              "WhenOpened": "2025-02-26T01:02:25.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Players.razor",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\Players.razor",
-              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Players\\Players.razor",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\Players.razor",
-              "RelativeToolTip": "Esport.Client\\Pages\\Players\\Players.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAC5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T23:08:51.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Esport.WebApi\\Program.cs",
-              "ToolTip": "F:\\projects\\Esport\\Esport.WebApi\\Program.cs",
-              "RelativeToolTip": "Esport.WebApi\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Title": "Tournament.cs",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Shared\\Models\\Tournament.cs",
+              "RelativeDocumentMoniker": "Esport.Shared\\Models\\Tournament.cs",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\Models\\Tournament.cs",
+              "RelativeToolTip": "Esport.Shared\\Models\\Tournament.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T23:04:19.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Esport.WebApi",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.WebApi\\Esport.WebApi.csproj",
-              "RelativeDocumentMoniker": "Esport.WebApi\\Esport.WebApi.csproj",
-              "ToolTip": "F:\\projects\\Esport\\Esport.WebApi\\Esport.WebApi.csproj",
-              "RelativeToolTip": "Esport.WebApi\\Esport.WebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-23T23:00:04.722Z",
+              "WhenOpened": "2025-02-26T00:51:49.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PlayeroFormData.cs",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Shared\\DTO\\PlayeroFormData.cs",
-              "RelativeDocumentMoniker": "Esport.Shared\\DTO\\PlayeroFormData.cs",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\DTO\\PlayeroFormData.cs",
-              "RelativeToolTip": "Esport.Shared\\DTO\\PlayeroFormData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
+              "Title": "TournamentFormData.cs",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Shared\\DTO\\TournamentFormData.cs",
+              "RelativeDocumentMoniker": "Esport.Shared\\DTO\\TournamentFormData.cs",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\DTO\\TournamentFormData.cs",
+              "RelativeToolTip": "Esport.Shared\\DTO\\TournamentFormData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T22:40:00.949Z",
+              "WhenOpened": "2025-02-26T00:50:31.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TournamentDto.cs",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Shared\\DTO\\TournamentDto.cs",
+              "RelativeDocumentMoniker": "Esport.Shared\\DTO\\TournamentDto.cs",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\DTO\\TournamentDto.cs",
+              "RelativeToolTip": "Esport.Shared\\DTO\\TournamentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:50:20.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TournamentController.cs",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.WebApi\\Controllers\\TournamentController.cs",
+              "RelativeDocumentMoniker": "Esport.WebApi\\Controllers\\TournamentController.cs",
+              "ToolTip": "F:\\projects\\Esport\\Esport.WebApi\\Controllers\\TournamentController.cs",
+              "RelativeToolTip": "Esport.WebApi\\Controllers\\TournamentController.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAUwLkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:49:39.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Authorization\\Login.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Authorization\\Login.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Authorization\\Login.razor",
+              "RelativeToolTip": "Esport.Client\\Pages\\Authorization\\Login.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T00:47:14.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Esport.Client\\Program.cs",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Program.cs",
+              "RelativeToolTip": "Esport.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:44:49.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Esport.Client\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Esport.Client\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:42:06.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddTeam.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams\\AddTeam.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Teams\\AddTeam.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams\\AddTeam.razor",
+              "RelativeToolTip": "Esport.Client\\Pages\\Teams\\AddTeam.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T00:01:35.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeamDto.cs",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Shared\\DTO\\TeamDto.cs",
+              "RelativeDocumentMoniker": "Esport.Shared\\DTO\\TeamDto.cs",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\DTO\\TeamDto.cs",
+              "RelativeToolTip": "Esport.Shared\\DTO\\TeamDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:55:23.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlayerForm.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Components\\PlayerForm.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Components\\PlayerForm.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Components\\PlayerForm.razor",
+              "RelativeToolTip": "Esport.Client\\Components\\PlayerForm.razor",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T00:24:13.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditPlayer.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\EditPlayer.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Players\\EditPlayer.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Players\\EditPlayer.razor",
+              "RelativeToolTip": "Esport.Client\\Pages\\Players\\EditPlayer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T00:07:01.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TeamForm.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Components\\TeamForm.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Components\\TeamForm.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Components\\TeamForm.razor",
+              "RelativeToolTip": "Esport.Client\\Components\\TeamForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T23:53:19.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditTeam.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams\\EditTeam.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Teams\\EditTeam.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams\\EditTeam.razor",
+              "RelativeToolTip": "Esport.Client\\Pages\\Teams\\EditTeam.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T23:52:02.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamProfile.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams\\TeamProfile.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Teams\\TeamProfile.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams\\TeamProfile.razor",
+              "RelativeToolTip": "Esport.Client\\Pages\\Teams\\TeamProfile.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T23:48:05.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teams.razor",
+              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams\\Teams.razor",
+              "RelativeDocumentMoniker": "Esport.Client\\Pages\\Teams\\Teams.razor",
+              "ToolTip": "F:\\projects\\Esport\\Esport.Client\\Pages\\Teams\\Teams.razor",
+              "RelativeToolTip": "Esport.Client\\Pages\\Teams\\Teams.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T23:48:00.926Z",
               "EditorCaption": ""
             },
             {
@@ -168,35 +313,9 @@
               "RelativeDocumentMoniker": "Esport.Shared\\DTO\\PlayerDto.cs",
               "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\DTO\\PlayerDto.cs",
               "RelativeToolTip": "Esport.Shared\\DTO\\PlayerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T22:42:20.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayersController.cs",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.WebApi\\Controllers\\PlayersController.cs",
-              "RelativeDocumentMoniker": "Esport.WebApi\\Controllers\\PlayersController.cs",
-              "ToolTip": "F:\\projects\\Esport\\Esport.WebApi\\Controllers\\PlayersController.cs",
-              "RelativeToolTip": "Esport.WebApi\\Controllers\\PlayersController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T11:54:33.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "F:\\projects\\Esport\\Esport.Shared\\DTO\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Esport.Shared\\DTO\\LoginModel.cs",
-              "ToolTip": "F:\\projects\\Esport\\Esport.Shared\\DTO\\LoginModel.cs",
-              "RelativeToolTip": "Esport.Shared\\DTO\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T11:13:38.008Z",
               "EditorCaption": ""
             }
           ]

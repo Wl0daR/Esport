@@ -1,0 +1,194 @@
+﻿@page "/teamprofile/edit/{teamId:int}"
+@using Esport.Shared.DTO
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Esport.Client.Components
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Forms
+@using System.Net.Http.Headers
+
+<h3>Edycja drużyny</h3>
+
+@if (teamModel == null)
+{
+    <p>Ładowanie danych drużyny...</p>
+}
+else
+{
+    <AuthorizeView Roles="Administrator">
+        <Authorized>
+            <button class="btn-team-delete" @onclick="DeleteTeam">Usuń</button>
+        </Authorized>
+    </AuthorizeView>
+    <TeamForm Model="teamModel" 
+                 OnValidSubmitCallback="@( (TeamForm<TeamDto>.TeamFormModel formModel) => OnValidForm(formModel) )" 
+                 SubmitButtonText="Zapisz"> 
+     </TeamForm>
+    <button class="btn" @onclick="GoBack">Powrót do listy drużyn</button>
+}
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <p class="error">@message</p>
+}
+
+@code {
+    [Parameter]
+    public int teamId { get; set; }
+
+    private TeamDto? teamModel;
+    private string message = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Pobierz dane gracza
+        teamModel = await Http.GetFromJsonAsync<TeamDto>($"api/teams/{teamId}");
+    }
+
+    private async Task OnValidForm(TeamForm<TeamDto>.TeamFormModel formModel)
+    {
+        // Serializujemy zaktualizowane dane gracza do JSON
+        var teamJson = System.Text.Json.JsonSerializer.Serialize(formModel.Team);
+        // Przygotowujemy multipart/form-data
+        var content = new MultipartFormDataContent();
+        content.Add(new StringContent(teamJson), "TeamJson");
+
+        // Jeśli użytkownik wybrał plik, dodajemy go do żądania
+        if (formModel.ImageFile != null)
+        {
+            var stream = formModel.ImageFile.OpenReadStream(10 * 1024 * 1024); // limit 10 MB
+            var fileContent = new StreamContent(stream);
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue(formModel.ImageFile.ContentType);
+            content.Add(fileContent, "Image", formModel.ImageFile.Name);
+        }
+
+        // Wywołujemy endpoint PUT, który obsługuje aktualizację gracza z opcjonalnym zdjęciem
+        var response = await Http.PutAsync($"api/teams/{teamId}", content);
+        if (response.IsSuccessStatusCode)
+        {
+            NavigationManager.NavigateTo("/teams");
+        }
+        else
+        {
+            message = "Wystąpił błąd podczas aktualizacji danych gracza.";
+        }
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/teams");
+    }
+
+    private async Task DeleteTeam()
+    {
+        var response = await Http.DeleteAsync($"api/teams/{teamId}");
+        if (response.IsSuccessStatusCode)
+        {
+            NavigationManager.NavigateTo("/teams");
+        }
+        else
+        {
+            message = "Wystąpił błąd podczas usuwania gracza.";
+        }
+    }
+}
+
+<style>
+    .auth-container, .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        background: #f5f5f5;
+        padding: 20px;
+    }
+
+    .auth-card, .form-card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        padding: 2rem;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #555;
+        }
+
+    .form-control {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 0.7rem;
+        background-color: #6200ee;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 1rem;
+        transition: background-color 0.3s;
+    }
+
+        .btn:hover {
+            background-color: #4e00d5;
+        }
+
+    .btn {
+        display: flex;
+    }
+
+    .error {
+        color: red;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .btn-player-delete {
+        padding: 0.2rem;
+        background-color: red;
+        color: #fff;
+        border: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 1rem;
+        transition: background-color 0.3s;
+    }
+
+    .btn-delete-image {
+        padding: 0.2rem;
+        background-color: red;
+        color: #fff;
+        border: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s;
+    }
+</style>

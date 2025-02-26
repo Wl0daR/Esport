@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Esport.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ce8b042609bc5c8b85099cdc972659047c7cc08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+685ba8d175ecb518d19bc34daf6cf0dacea54f83")]
 [assembly: System.Reflection.AssemblyProductAttribute("Esport.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Esport.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

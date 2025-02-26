@@ -2,6 +2,8 @@ wwwroot\favicon.png
 wwwroot\icon-192.png
 wwwroot\index.html
 wwwroot\noimage.png
+wwwroot\playerimages\1.png
+wwwroot\playerimages\2.png
 wwwroot\playerimages\39.png
 wwwroot\sample-data\weather.json
 wwwroot\teamlogo\1.png

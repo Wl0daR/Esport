@@ -93,36 +93,6 @@ namespace Esport.WebApi.Migrations
                     b.ToTable("Teams");
                 });
 
-            modelBuilder.Entity("Esport.Shared.Models.Tournament", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("ImagePath")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Location")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<decimal>("PrizePool")
-                        .HasColumnType("decimal(65,30)");
-
-                    b.Property<DateTime>("TournamentDate")
-                        .HasColumnType("datetime(6)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Tournaments");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -334,6 +304,43 @@ namespace Esport.WebApi.Migrations
                     b.ToTable("TeamTournaments", (string)null);
                 });
 
+            modelBuilder.Entity("Tournament", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<decimal>("PrizePool")
+                        .HasColumnType("decimal(65,30)");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tournaments");
+                });
+
             modelBuilder.Entity("Esport.Shared.Models.Player", b =>
                 {
                     b.HasOne("Esport.Shared.Models.Team", "Team")
@@ -404,7 +411,7 @@ namespace Esport.WebApi.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Esport.Shared.Models.Tournament", null)
+                    b.HasOne("Tournament", null)
                         .WithMany()
                         .HasForeignKey("TournamentsId")
                         .OnDelete(DeleteBehavior.Cascade)

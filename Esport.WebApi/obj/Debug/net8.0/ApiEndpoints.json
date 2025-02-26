@@ -208,5 +208,94 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esport.WebApi.Controllers.TournamentsController",
+    "Method": "GetTournaments",
+    "RelativePath": "api/Tournaments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esport.WebApi.Controllers.TournamentsController",
+    "Method": "AddTournament",
+    "RelativePath": "api/Tournaments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TournamentJson",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esport.WebApi.Controllers.TournamentsController",
+    "Method": "GetTournament",
+    "RelativePath": "api/Tournaments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esport.WebApi.Controllers.TournamentsController",
+    "Method": "UpdateTournament",
+    "RelativePath": "api/Tournaments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "TournamentJson",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Esport.WebApi.Controllers.TournamentsController",
+    "Method": "DeleteTournament",
+    "RelativePath": "api/Tournaments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

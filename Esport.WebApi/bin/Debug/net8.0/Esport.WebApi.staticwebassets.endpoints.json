@@ -331,6 +331,170 @@
       ]
     },
     {
+      "Route": "playerimages/1.3jo9h7lswp.png",
+      "AssetFile": "playerimages/1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZ4bzkM7/+HsTWZpbYzXwk4PQ5W20ThC7TvxO0p0L4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 00:39:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3jo9h7lswp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kZ4bzkM7/+HsTWZpbYzXwk4PQ5W20ThC7TvxO0p0L4Q="
+        },
+        {
+          "Name": "label",
+          "Value": "playerimages/1.png"
+        }
+      ]
+    },
+    {
+      "Route": "playerimages/1.png",
+      "AssetFile": "playerimages/1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZ4bzkM7/+HsTWZpbYzXwk4PQ5W20ThC7TvxO0p0L4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 00:39:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kZ4bzkM7/+HsTWZpbYzXwk4PQ5W20ThC7TvxO0p0L4Q="
+        }
+      ]
+    },
+    {
+      "Route": "playerimages/2.png",
+      "AssetFile": "playerimages/2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IZyqNQC77duHTi6hIFtDdMq5H9yBlbUV7exooCU0iFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 00:40:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IZyqNQC77duHTi6hIFtDdMq5H9yBlbUV7exooCU0iFU="
+        }
+      ]
+    },
+    {
+      "Route": "playerimages/2.zzpx2wymco.png",
+      "AssetFile": "playerimages/2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IZyqNQC77duHTi6hIFtDdMq5H9yBlbUV7exooCU0iFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 00:40:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zzpx2wymco"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IZyqNQC77duHTi6hIFtDdMq5H9yBlbUV7exooCU0iFU="
+        },
+        {
+          "Name": "label",
+          "Value": "playerimages/2.png"
+        }
+      ]
+    },
+    {
       "Route": "playerimages/39.aozwoe5o63.png",
       "AssetFile": "playerimages/39.png",
       "Selectors": [],

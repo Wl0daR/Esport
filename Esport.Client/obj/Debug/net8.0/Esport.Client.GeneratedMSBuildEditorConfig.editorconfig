@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQbGF5ZXJGb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/projects/Esport/Esport.Client/Components/TeamForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUZWFtRm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/projects/Esport/Esport.Client/Pages/Authorization/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXphdGlvblxMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,12 +64,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xQbGF5ZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/projects/Esport/Esport.Client/Pages/Teams/AddTeam.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcQWRkVGVhbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/Esport/Esport.Client/Pages/Teams/EditTeam.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcRWRpdFRlYW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/projects/Esport/Esport.Client/Pages/Teams/TeamProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcVGVhbVByb2ZpbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/projects/Esport/Esport.Client/Pages/Teams/Teams.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbXNcVGVhbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/Esport/Esport.Client/Pages/Tournaments/TournamentProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG91cm5hbWVudHNcVG91cm5hbWVudFByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/Esport/Esport.Client/Pages/Tournaments/Tournaments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG91cm5hbWVudHNcVG91cm5hbWVudHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/projects/Esport/Esport.Client/_Imports.razor]

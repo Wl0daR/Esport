@@ -1,0 +1,138 @@
+﻿@page "/tournaments"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Esport.Shared.DTO
+@using Esport.Shared.Helpers
+
+<h3>Lista turniejów</h3>
+
+<AuthorizeView Roles="Administrator">
+    <Authorized>
+        <button class="btn-add-tournament" @onclick="GoToAddTournament">Dodaj</button>
+    </Authorized>
+</AuthorizeView>
+
+@if (tournaments == null)
+{
+    <p>Ładowanie turniejów...</p>
+}
+else if (!tournaments.Any())
+{
+    <p>Brak turniejów do wyświetlenia.</p>
+}
+else
+{
+    <div class="card-container">
+        @foreach (var tournament in tournaments)
+        {
+            <div class="tournament-card" @onclick="() => GoToTournamentProfile(tournament.Id)">
+                <div class="tournament-header">
+                    <h4>@tournament.Name</h4>
+                </div>
+                <div class="tournament-image-container">
+                    <img class="tournament-image" src=@($"http://localhost:5122/tournamentimages/{tournament.Id}.png") alt="@tournament.Name" onerror="this.onerror=null;this.src='/noimage.png';" />
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    List<TournamentDto>? tournaments;
+
+    protected override async Task OnInitializedAsync()
+    {
+        tournaments = await Http.GetFromJsonAsync<List<TournamentDto>>("api/tournaments");
+    }
+
+    private void GoToTournamentProfile(int id)
+    {
+        NavigationManager.NavigateTo($"/tournamentprofile/{id}");
+    }
+
+    private void GoToAddPlayer()
+    {
+        NavigationManager.NavigateTo("/tournaments/add");
+    }
+    private void GoToAddTournament(MouseEventArgs args)
+    {
+        throw new NotImplementedException();
+    }
+}
+
+<style>
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    .tournament-card {
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+        background-color: #fff;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .tournament-card:hover {
+            transform: scale(1.02);
+        }
+
+    .tournament-header {
+        text-align: center;
+        background-color: #f0f0f0;
+    }
+
+        .tournament-header h4 {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+    .tournament-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px; /* Stała wysokość dla obrazu */
+        overflow: hidden;
+        position: relative;
+    }
+
+    .tournament-image {
+        width: 100%;
+        max-width: 190px;
+        height: auto;
+        object-fit: cover;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .tournament-team {
+        padding: 0.5rem;
+        text-align: center;
+        background-color: #f7f7f7;
+        font-size: 0.9rem;
+    }
+
+    .tournament-link {
+        color: inherit !important;
+        text-decoration: none !important;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        display: inline-block;
+        padding: 0.2rem 0.4rem;
+    }
+
+        .tournament-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+</style>
+

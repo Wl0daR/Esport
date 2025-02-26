@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "X3zu/FjEucg=",
+  "dgSpecHash": "ds7lHLa5sbE=",
   "success": true,
   "projectFilePath": "F:\\projects\\Esport\\Esport.Client\\Esport.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\WlodaR\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\WlodaR\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.13\\microsoft.aspnetcore.authorization.8.0.13.nupkg.sha512",
     "C:\\Users\\WlodaR\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.13\\microsoft.aspnetcore.components.8.0.13.nupkg.sha512",
     "C:\\Users\\WlodaR\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.13\\microsoft.aspnetcore.components.analyzers.8.0.13.nupkg.sha512",

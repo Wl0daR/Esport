@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\noimage.png"
     },
     {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\playerimages\\1.png",
+      "PackagePath": "staticwebassets\\playerimages\\1.png"
+    },
+    {
+      "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\playerimages\\2.png",
+      "PackagePath": "staticwebassets\\playerimages\\2.png"
+    },
+    {
       "Id": "F:\\projects\\Esport\\Esport.WebApi\\wwwroot\\playerimages\\39.png",
       "PackagePath": "staticwebassets\\playerimages\\39.png"
     },

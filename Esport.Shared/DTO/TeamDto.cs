@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Esport.Shared.Models;
 
 namespace Esport.Shared.DTO
 {
@@ -9,7 +10,8 @@ namespace Esport.Shared.DTO
         public string Name { get; set; } = null!;
         public DateTime FoundedDate { get; set; }
         public string CountryOfOrigin { get; set; } = null!;
+        public string? ImagePath { get; set; }
         // Kolekcja graczy
-        public List<PlayerDto> Players { get; set; } = new();
+        public List<Player> Players { get; set; } = new();
     }
 }
